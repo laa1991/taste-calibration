@@ -16,6 +16,25 @@ Picking the paper a researcher actually kept, out of four titles, is a **much ea
 
 ---
 
+## Sibling evidence: the difficulty knob is not only one (added 2026-09-25)
+
+arXiv:2609.25804 (*long-horizon agent "taste"*, Taste-Bench, 502 items × 14 models) defines taste as
+**choosing the eventually-better branch at a fork where the outcome is not yet visible**, and mines its
+labels from trajectories rather than from expert annotation. It independently supplies **the other
+difficulty knob** in this same cell: the later the decisive evidence appears, the further 14 models'
+average accuracy falls — **62.3% → 21.0%**.
+
+Together the two are two halves of one sentence:
+
+- **this repo**: difficulty is written into **how the wrong options are chosen** (random → nearest-title; ~15 points for *every* player at once);
+- **that paper**: difficulty is written into **when the evidence becomes visible** (62.3% → 21.0%).
+
+⇒ **How hard this cell is, is not a property of the model — it is a property of how the questions were built.**
+That paper measures *how late the evidence arrives* and does not measure *how the negatives were chosen*; this repo measures the latter. The two are complementary blind spots.
+
+Note on one number: that paper's **98.8% is agreement between human re-checks and its mined labels** —
+*not* a human score on Taste-Bench. The "no human baseline" cell is still unfilled there too.
+
 ## The four things a number like "about 50% accuracy" is missing
 
 Taken from the post: an agent ranked a week's cs.LG submissions, and the researcher hand-scored the top 15 (⭐1 · ✅5 · ◐2 · ❌7) — *"about 50% accuracy."* The same 15 predictions, under four bookkeeping rules:
@@ -175,6 +194,9 @@ Three further readings:
 ## What this does **not** show
 
 - **No human baseline.** How well a person scores is the most obvious missing number, and no agent can produce it — it needs people. The instrument is shipped: open `human-baseline.html` (120 questions, ~16 min) or `human-baseline-core.html` (set 1 only, 60 questions, ~8 min), answer with no feedback until the end, and paste back the score line it prints. A single person is a data point; three to five make the row real. Nothing here substitutes for that.
+  The closest sibling work (arXiv:2609.25804) also does not report it — what it reports is *agreement between
+  human re-checks and its mined labels* (98.8%), not a human score on this kind of item.
+  ⇒ As far as we can see, this cell is still empty in the public literature.
 - **Popularity baseline: shipped, but dirty** (R5). It answers "is the model just picking what's hot?" with a public heat feed that is not restricted to cs.LG and does not carry every ML paper. Its verdict (0/15, and 33 of his 37 papers absent from the feed) bounds the hotness explanation; it is not a clean "15 most-discussed papers of that week".
 - **L2's "same topic" is a proxy** — the 3 nearest titles under character-n-gram cosine, not a human judgment of topical match.
 - **The negatives are random cs.LG, not papers he saw and rejected.** The true hard-pair experiment needs his browsing history, which does not exist. This is the ceiling of what a public collection can support.
@@ -186,10 +208,26 @@ A self-audit worth repeating here: the L2 distractor selection *could* have infl
 
 ---
 
+## A 0-th experiment, before "can taste be learned?" (added 2026-09-25)
+
+Most answers people give, most of the time, are not preferences — they are *don't-cares*.
+If that is true here, a four-option task will push human answers toward uniform, **not because people are bad
+at it, but because they have no preference between those options.**
+
+So the question to settle first is not "can taste be learned" but **"how much is there to learn at all"**:
+decompose the owner's choices into *hard preference* · *free cues that need no knowledge of him* · *noise*.
+
+This repo already has one reading of that shape: his titles are ~16 characters shorter than the distractor
+pool, and "always take the shortest" alone is worth 47.7% — i.e. **a large slice of this "taste" is
+reproducible without knowing the person at all**. Measuring the three shares is cheaper than the training arm,
+and it decides whether the training arm is worth running.
+
 ## How to use this
 
 1. **Report four things together**: a naive baseline (`random` *and* `shortest`), n with an interval, the recall side, and the construction of the negative pool. Any one alone is unreadable.
 2. **The difficulty knob is the distractor pool, not the model.** L0 → L2 is worth ~15 points for every player simultaneously.
+   The sibling half of this evidence: in arXiv:2609.25804 the knob is *when the evidence appears* (62.3% → 21.0%).
+   Both point the same way — **the difficulty is built into the questions, not into the model.**
 3. **`shortest` is the cheapest useful control.** A model that cannot beat "pick the shortest title" on hard pairs has not learned taste.
 4. **In-context examples have a low ceiling here** (200 examples → +3 questions, n.s.). If "can taste be taught" is the question, it will need training or explicit criteria, not a longer prompt.
 5. **Count net-new, not hits.** For a recommender whose purpose is to extend someone's reach, `found-and-they-missed ÷ submitted` is the metric that matches the goal; hit rate rewards re-stating what they already knew.
