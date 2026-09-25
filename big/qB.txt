@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles drawn from the SAME narrow topic, so the choice is close. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES
+  (B) A Layered Simplex Architecture for Large Alphabets
+  (C) Interpretable Feature Learning for RF Fingerprinting via Polar MKANs
+  (D) Partition of Unity Neural Networks for Interpretable Classification with Explicit Class Regions
+
+Q2.
+  (A) Residual Algebra for Representation-Preserving Learning
+  (B) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+  (C) Harness Continual Learning: Continual Adaptation Beyond Model Parameters
+  (D) Geometry of Forgetting: Representation Flux in Continual Learning
+
+Q3.
+  (A) Unifying Graph Neural Networks Through a Common Layer Equation
+  (B) Beyond Multimodal Alignment: Certifying Physical Language through Response Substitution and Ordered Execution
+  (C) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (D) NICE: Scale-Stable Perturbations for Graph Neural Network Explanations via Noise Corruption
+
+Q4.
+  (A) Residual Algebra for Representation-Preserving Learning
+  (B) Exact Algebraic Computation of Learning Coefficients for Two-Dimensional Singular Models
+  (C) Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations
+  (D) Backward through Time, Algebraically
+
+Q5.
+  (A) Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams
+  (B) Feed-Forward Steering in Transformer Residual Dynamics
+  (C) Residual Algebra for Representation-Preserving Learning
+  (D) Geometric and Behavioral Stratification in Transformer Residual Streams
+
+Q6.
+  (A) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (B) RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers
+  (C) Uncovering the Limits of Proof Sharing for Neural Networks
+  (D) Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic
+
+Q7.
+  (A) Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems
+  (B) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+  (C) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+  (D) Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles
+
+Q8.
+  (A) Discretizing Continuous Time Series for Imputation with Masked Diffusion Training
+  (B) When to Review: Spaced Repetition for Continual Pre-Training of Language Models
+  (C) RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers
+  (D) TRAINING nGPT
+
+Q9.
+  (A) Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking
+  (B) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+  (C) When to Review: Spaced Repetition for Continual Pre-Training of Language Models
+  (D) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+
+Q10.
+  (A) Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+  (B) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (C) SGHA: Evidence-Grounded Research Problem Discovery with Local Language Models
+  (D) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+
+Q11.
+  (A) Reinforced Planning with Latent World Models
+  (B) Addressable Memory for Video World Models
+  (C) Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models
+  (D) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+
+Q12.
+  (A) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (B) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (C) Does Mapping Non-Maximal Probabilities to GMM Components Matter for S-JEPA Encoder Representations?
+  (D) Online Generalized Sparse Regression: How Does Overparametrization Help?
+
+Q13.
+  (A) Allocating Recurrent Compute in Looped Language Models
+  (B) RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers
+  (C) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (D) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+
+Q14.
+  (A) Modular Cognitive Architecture Emerges in Large Language Models
+  (B) MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models
+  (C) A Layered Simplex Architecture for Large Alphabets
+  (D) Inadvertent Context Leakage in Language Models
+
+Q15.
+  (A) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+  (B) Harness Continual Learning: Continual Adaptation Beyond Model Parameters
+  (C) FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING
+  (D) The Value of Finite Observation in Positive-Data Learning of Multiple Context-Free Languages
+
+Q16.
+  (A) Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media
+  (B) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+  (C) A Robust In-Context Model for Conservation Laws: Injecting Context into Flux Neural Operators via Recurrent Vision Transformers
+  (D) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+
+Q17.
+  (A) Graph Machine: Exploring Edge Mechanisms as an Inductive Bias
+  (B) Predicting Male Domestic Violence Using Explainable Ensemble Learning and Exploratory Data Analysis
+  (C) In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models
+  (D) Generalist Vision-Language Models for Fast Radio Burst detection: a zero-shot benchmark against a specialized detector
+
+Q18.
+  (A) Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking
+  (B) Off-Manifold Collapse in Guided Protein Language Models
+  (C) An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting
+  (D) Forecast Collapse in Time-Series Foundation Models
+
+Q19.
+  (A) A FEM-Based Surrogate Modelling and Optimization Framework for Physics-Constrained Electromagnetic Coil Design
+  (B) Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents
+  (C) OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics
+  (D) Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media
+
+Q20.
+  (A) Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams
+  (B) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (C) HyPE-GT: where Graph Transformers meet Hyperbolic Positional Encodings
+  (D) Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So
+
+Q21.
+  (A) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+  (B) The Diffusion-Attention Connection
+  (C) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (D) Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs
+
+Q22.
+  (A) Off-Manifold Collapse in Guided Protein Language Models
+  (B) Language models suffer from a curse of ambiguity
+  (C) Inadvertent Context Leakage in Language Models
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q23.
+  (A) Bidirectional representational alignment between biological and artificial neural networks
+  (B) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (C) Uncovering the Limits of Proof Sharing for Neural Networks
+  (D) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+
+Q24.
+  (A) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  (B) Partition of Unity Neural Networks for Interpretable Classification with Explicit Class Regions
+  (C) Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models
+  (D) Interpretable Feature Learning for RF Fingerprinting via Polar MKANs
+
+Q25.
+  (A) Geometric and Behavioral Stratification in Transformer Residual Streams
+  (B) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (C) SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q26.
+  (A) TabularQGAN: A quantum generative model for tabular data synthesis
+  (B) TabNSM: Neural Sparse Mixer for Tabular Regression
+  (C) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  (D) Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference
+
+Q27.
+  (A) Cross-Cohort Spectral-Temporal Dissociation in Frozen EEG Foundation-Model Representations
+  (B) Spectrally Safe Neural Operator Warm-Starts for Large-Scale Newton Solvers
+  (C) Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations
+  (D) The spectral neuron
+
+Q28.
+  (A) Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence
+  (B) ProxyGuard: Direct Reliability Inference for Randomized Data Release Mechanisms with Shared Targets
+  (C) Graph Machine: Exploring Edge Mechanisms as an Inductive Bias
+  (D) Self-Distillation as a Performance Recovery Mechanism for LLMs: Counteracting Compression and Catastrophic Forgetting
+
+Q29.
+  (A) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+  (B) Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents
+  (C) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (D) FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING
+
+Q30.
+  (A) The impact of feature engineering and an optimisation framework for ocean colour machine learning
+  (B) Quantifying Event Impacts on Time Series via Multiscale Contrastive Learning
+  (C) Designing Compact Neural Architectures via Neuron Gating and Mixed Activation
+  (D) A Layered Simplex Architecture for Large Alphabets

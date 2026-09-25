@@ -1,0 +1,23 @@
+{
+  "snapshot": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "note": "Both files are mirrors of a public dataset published by its author for benchmarking purposes. They are kept here so that the numbers in README.md remain reproducible even after the live collection is updated. The canonical source is the URL in each entry.",
+  "sources": {
+    "papers.json": {
+      "url": "https://metacircleai.github.io/ziming-paper-collection/data/papers.json",
+      "bytes": 649366,
+      "sha256": "88e8732dffdc73bfc92408f297abb301d3757b4c0d5107cbfd38b0c35b52f25f",
+      "entries": 2208,
+      "shape": "[{id,title,url,section,tags,note,source}] — 1992 entries have source=arxiv (title-only use here)",
+      "also_used_as": "the ground-truth set for the replay: section == \"Week of 2026-08-22\" (37 papers)"
+    },
+    "distractors.json": {
+      "url": "https://metacircleai.github.io/ziming-paper-collection/data/distractors.json",
+      "bytes": 90465,
+      "sha256": "6d8011b407471a7eebadc611692b9b93e06a9deaf4098a0fe739eee8bd2b1cb8",
+      "entries": 482,
+      "shape": "[{title,url,arxiv_id}] — 343 of them are arXiv 2026-08",
+      "also_used_as": "the negative pool for every experiment"
+    }
+  }
+}

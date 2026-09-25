@@ -1,0 +1,75 @@
+{
+  "GT": 37,
+  "pool": 380,
+  "rows": [
+    {
+      "name": "agent (blog 15)",
+      "picks": 15,
+      "tp": 5,
+      "P": 0.3333333333333333,
+      "R": 0.13513513513513514
+    },
+    {
+      "name": "LR title-only",
+      "picks": 15,
+      "tp": 7,
+      "P": 0.4666666666666667,
+      "R": 0.1891891891891892
+    },
+    {
+      "name": "kNN5 title-only",
+      "picks": 15,
+      "tp": 7,
+      "P": 0.4666666666666667,
+      "R": 0.1891891891891892
+    },
+    {
+      "name": "shortest-15",
+      "picks": 15,
+      "tp": 4,
+      "P": 0.26666666666666666,
+      "R": 0.10810810810810811
+    },
+    {
+      "name": "longest-15 (control)",
+      "picks": 15,
+      "tp": 0,
+      "P": 0,
+      "R": 0
+    }
+  ],
+  "agentRanks": [
+    88,
+    17,
+    7,
+    null,
+    150,
+    51,
+    169,
+    null,
+    1,
+    72,
+    177,
+    null,
+    null,
+    77,
+    null
+  ],
+  "top15": [
+    "Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive",
+    "WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF MUSIC FOUNDATION MODELS",
+    "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+    "In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models",
+    "A systematic review of machine learning techniques to address diagnosis and treatment of autism: challenges and opportunities",
+    "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+    "On the Principles Behind Neural Network Optimizers",
+    "Deep neural networks as lattice gauge theories",
+    "What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems",
+    "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1–8B",
+    "Transfer Learning in Nonparametric Regression with Deep ReLU Networks",
+    "Quantum-Logic Tsetlin Machines: Interpretable Quantum Machine Learning with Commuting Projector Clauses",
+    "Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting",
+    "Graph Machine: Exploring Edge Mechanisms as an Inductive Bias",
+    "Tensor Field Models"
+  ]
+}

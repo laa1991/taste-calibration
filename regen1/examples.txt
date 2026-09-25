@@ -1,0 +1,23 @@
+Papers the researcher KEPT:
+  - Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  - Sphere Retraction Normalizations
+  - WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+  - WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+  - KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+  - Emergent Models: Intelligence from Tiny Substrates
+  - Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See
+  - Correlation flow governs learning at criticality
+  - Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+  - Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
+
+Papers the researcher was shown and did NOT keep:
+  - The Concept Allocation Zone: Tracking How Concepts Form Across Transformer Depth
+  - Evaluating Neural Cartographic Relief Shading for Urban Environments: A Downtown Calgary Study Using High-Resolution DEM and DSM Data
+  - skchange: Fast and Flexible Algorithms for Changepoint Detection
+  - A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+  - Fuzzy Accuracy Compensates for Label Subjectivity in Classification of Skin Tone Using Wearable Photoplethysmography Signals
+  - Algorithms for adaptive and heteroskedastic linear regression at the computational threshold
+  - Nonlocal Transition Kernel for Efficient Learning of Restricted Boltzmann Machines
+  - From Inference to Adaptation: A Unified Optimal Transport View of Vision Language Model
+  - MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents
+  - Debate Training Reduces Reward Hacking in RLAIF

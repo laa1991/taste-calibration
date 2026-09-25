@@ -1,0 +1,205 @@
+A researcher's personal arXiv paper collection. Below are 100 papers they KEPT, and 100 papers from the same period that they were shown and did NOT keep.
+
+== KEPT (100) ==
+1. Optimization Landscapes Learned: Proxy Networks Boost Convergence in Physics-based Inverse Problems
+2. Are ensembles getting better all the time?
+3. ON THE EXISTENCE AND BEHAVIOUR OF SECONDARY ATTENTION SINKS
+4. LLMs can see and hear without any training
+5. Training Dynamics of In-Context Learning in Linear Attention
+6. Hessian Geometry of Latent Space in Generative Models
+7. Gradient Descent on Neurons and its Link to Approximate Second-Order Optimization
+8. On the Activation Function Dependence of the Spectral Bias of Neural Networks
+9. Stratifying Reinforcement Learning with Signal Temporal Logic
+10. Emergence and scaling laws in SGD learning of shallow neural networks
+11. Looped ReLU MLPs May Be All You Need as Practical Programmable Computers
+12. Li2: A FRAMEWORK ON DYNAMICS OF FEATURE EMERGENCE AND DELAYED GENERALIZATION
+13. Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training
+14. Fractal Patterns May Unravel the Intelligence in Next-Token Prediction
+15. Deep Legendre Transform
+16. Cautious Optimizers: Improving Training with One Line of Code
+17. Layer Specialization Underlying Compositional Reasoning in Transformers
+18. Looped Transformers for Length Generalization
+19. Interpretable by Design: Wrapper Boxes Combine Neural Performance with Faithful Explanations
+20. Learning to Compile Programs to Neural Networks
+21. Only relative ranks matter in weight-clustered large language models
+22. Quantifying Emergence in Neural Networks: Insights from Pruning and Training Dynamics
+23. MODERN KOOPMAN THEORY FOR DYNAMICAL SYSTEMS
+24. Closed-Form Interpretation of Neural Network Classifiers with Symbolic Regression Gradients
+25. Unknown Unknowns: Model Misspecification in Machine Learning for Physics
+26. An effective theory of collective deep learning
+27. Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway
+28. Beyond Words: A Mathematical Framework for Interpreting Large Language Models
+29. A Weak Penalty Neural ODE for Learning Chaotic Dynamics from Noisy Time Series
+30. Scaling Smart: Accelerating Large Language Model Pre-training with Small Model Initialization
+31. Virtual Width Networks
+32. A Mechanistic Analysis of Looped Reasoning Language Models
+33. Universal Response and Emergence of Induction in LLMs
+34. How does Chain of Thought decompose complex tasks?
+35. ALGORITHMIC PRIMITIVES AND COMPOSITIONAL GEOMETRY OF REASONING IN LANGUAGE MODELS
+36. Analyzing the Power of Chain of Thought through Memorization Capabilities
+37. Pseudo-Invertible Neural Networks
+38. Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers
+39. PREDICTING PHYSICS IN MESH-REDUCED SPACE WITH TEMPORAL ATTENTION
+40. SEARCHING FOR INTERNAL SYMBOLS UNDERLYING DEEP LEARNING
+41. The Truthfulness Spectrum Hypothesis
+42. TRANSFORMER IS INHERENTLY A CAUSAL LEARNER
+43. Learning richness modulates equality reasoning in neural networks
+44. Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights
+45. WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+46. Neural Tangent Kernel: A Survey
+47. Physics: Conformal field theory *Computer-assisted search of periodic orbits*
+48. THEORY OF SCALING LAWS FOR IN-CONTEXT REGRESSION: DEPTH, WIDTH, CONTEXT AND TIME
+49. Forward-only Diffusion Probabilistic Models
+50. The Subjectivity of Monoculture
+51. Towards Foundation Inference Models that Learn ODEs In-Context
+52. How Transformers Learn Causal Structure with Gradient Descent
+53. Machine learning assisted discovery of exotic criticality in a planar quasicrystal
+54. Teaching an Agent to Sketch One Part at a Time
+55. Emergent Modularity in Pre-trained Transformers
+56. Local Approximations, Real Interpolation and Machine Learning
+57. SYMBOL GROUNDING IN NEURO-SYMBOLIC AI: A GENTLE INTRODUCTION TO REASONING SHORTCUTS
+58. MARS: Unleashing the Power of Variance Reduction for Training Large Models
+59. Bridging Diffusion Guidance and Anderson Acceleration via Hopfield Dynamics
+60. MODELING ADAGRAD, RMSPROP, AND ADAM WITH INTEGRO-DIFFERENTIAL EQUATIONS
+61. Learning In-context n-grams with Transformers: Sub-n-grams Are Near-stationary Points
+62. Protoreasoning in Tiny Transformers
+63. Solving two-dimensional quantum eigenvalue problems using physics-informed machine learning
+64. Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training
+65. Minimax Optimal Kernel Operator Learning via Multilevel Training
+66. What needs to go right for an induction head? A mechanistic study of in-context learning circuits and their formation
+67. An Analytical Theory of Power Law Spectral Bias in the Learning Dynamics of Diffusion Models
+68. What Can Transformers Learn In-Context? A Case Study of Simple Function Classes
+69. Are classical neural networks quantum?
+70. https://arxiv.org/abs/2102.07081
+71. Balancing Learning Rates Across Layers: Exact Two-Step Dynamics and Optimal Scaling in Linear Neural Networks
+72. Cambrian-S: Towards Spatial Supersensing in Video
+73. DALLE-2 is Seeing Double: Flaws in Word-to-Concept Mapping in Text2Image Models
+74. Grokking as a Phase Transition between Competing Basins: a Singular Learning Theory Approach
+75. DISENTANGLING WITH BIOLOGICAL CONSTRAINTS: A THEORY OF FUNCTIONAL CELL TYPES
+76. Deep neural networks as lattice gauge theories
+77. Loom: A Scalable Analytical Neural Computer Architecture
+78. Power-of-Two (PoT) Weights in Large Language Models (LLMs)
+79. StretchTime: Adaptive Time Series Forecasting via Symplectic Attention
+80. Topological Theory of Phase Transitions
+81. —-------------------------- Oct 8, 2025 Bookmark —----------------------- Dale meets Langevin: A Multiplicative Denoising Diffusion Model
+82. It’s not a Lottery, it’s a Race: Understanding How Gradient Descent Adapts the Network’s Capacity to the Task
+83. Symmetry in language statistics shapes the geometry of model representations
+84. Gradients without Backpropagation
+85. PowerMLP: An Efficient Version of KAN
+86. How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model
+87. FAST DIFFERENTIABLE MATRIX SQUARE ROOT
+88. ORDINARY LEAST SQUARES IS A SPECIAL CASE OF TRANSFORMER
+89. Polyra Swarms: A Shape-Based Approach to Machine Learning
+90. Explaining Attention with Program Synthesis
+91. HOW DO TRANSFORMERS LEARN TO ASSOCIATE TOKENS: GRADIENT LEADING TERMS BRING MECHANISTIC INTERPRETABILITY
+92. Attention as a Hypernetwork
+93. Task Arithmetic Through The Lens Of One-Shot Federated Learning
+94. Weights to Code: Extracting Interpretable Algorithms from the Discrete Transformer
+95. A Scalable Measure of Loss Landscape Curvature for Analyzing the Training Dynamics of LLMs
+96. CLOSED-FORM LAST LAYER OPTIMIZATION
+97. The Neural Race Reduction: Dynamics of Abstraction in Gated Networks
+98. On the Occurence of Critical Learning Periods in Neural Networks
+99. Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits
+100. On the Approximation Power of SiLU Networks: Exponential Rates and Depth Efficiency
+
+== NOT KEPT (100) ==
+1. LionMuon: Alternating Spectral and Sign Descent for Efficient Training
+2. HiRA-CAM: Preserving Fine-Grained Spatial Relevance in Gradient-Based Visual Explanations
+3. Algorithms for adaptive and heteroskedastic linear regression at the computational threshold
+4. Dynamic Structural Causal Modeling for Sleep
+5. Spike-based Belief Propagation in Nonlinear Dynamical Systems
+6. Grounded verification of chemical and materials reasoning: detection is the bottleneck
+7. Learning Canonical Register Automata over Ordered Data Domains
+8. Separating Covariate Shift from Mechanism Change with Two Discriminators: CJSD, a Conditional Discrepancy with an Exact Covariate-Concept Decomposition
+9. On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
+10. MARCUS: Missing-Aware Region Representation with Contextual Urban Signals for Rent Prediction
+11. Multi-Objective Optimization Under Uncertainty of Part Quality in Fused Filament Fabrication
+12. Mechanistic Tomography: Designed Measurement for Control-Oriented Interpretability
+13. BRIDGE: Bridging Reasoning In Distillation Gap Elimination via Structure-Aware Masking
+14. Pretraining Reusable Inference Across Views with Synthetic Task Priors
+15. Coupled-cluster molecular properties across the main group that extrapolate beyond training size
+16. The Concept Allocation Zone: Tracking How Concepts Form Across Transformer Depth
+17. NanoSleep: A Parameter-Efficient Hybrid Temporal Convolutional Network for Single-Channel Sleep Stage Classification
+18. Decoding silent reading from non-invasive EEG
+19. Continual Reasoning Gym: Diagnosing and Harnessing Shared Reasoning in Continual RLVR
+20. Memory by Design: Probabilistic Sequence Layers
+21. A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection
+22. DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories
+23. Recovering Nonlinear Functions of Latent Variables: A Plausible-Value Neural Network Framework
+24. Jacobian-Guided Anisotropic Noise Reshaping for Enhancing Representation Utility under Local Differential Privacy
+25. Process Optimization Under Uncertainty for Improving the Bond Quality of Polymer Filaments in Fused Filament Fabrication
+26. Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation
+27. BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding
+28. Efficient Dynamic Shielding for Parametric Safety Specifications
+29. Vector Symbolic Policy Gradient
+30. EnvHarness: Awakening Static Worlds for Agent Learning
+31. Agents unlock new capabilities through Switching LoRA Adapters as a Tool (SLAaaT)
+32. Revisiting WEASEL 2.0: Reproduction, Sensitivity, and an Adaptive Ensemble-Size Rule
+33. Sharper Regret Bounds for Time-Varying Gaussian Process Bandits with Constant Exploration
+34. RIPE++: Reinforced Keypoint Learning from Positive Pairs Only
+35. Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies
+36. Automating Learner Assessment: Benchmarking Machine Learning and Deep Learning Models for EEG-Based Familiarity Prediction
+37. An Inclusive and Lightweight Approach to Federated Continual Learning for Cultural Heritage
+38. Lost in Aggregation: How Benchmarks Overlook Irreplaceable Model Strengths
+39. $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
+40. CarBench: A Comprehensive Benchmark for Neural Surrogates on High-Fidelity 3D Car Aerodynamics
+41. Drift-Adaptive ICU Intervention Prediction: Freezing the Physiological Encoder for Auditable Model Updating
+42. An Irreducible Quantum Advantage in Aligning World Models with Reality
+43. rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment
+44. Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design
+45. The Impact of CutMix on Reliability and Robustness in Semantic Segmentation
+46. Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay
+47. A Cloud-Edge System for Multimodal Clinical Screening in Resource-Constrained Rural Settings
+48. RequestRouter: Request-Boundary Routing for Efficient Single-GPU LLM Inference
+49. Flama: a Python framework for development and deployment of production-ready APIs, machine learning, and LLM services
+50. Question-Guided Evidence Acquisition for Multimodal Visual Question Answering
+51. Multi-Class Electrical and Mechanical Fault Classification Using Random Convolutional Kernels
+52. Auditing Recorded Predictive Lead Service-Line Classifications Against Physical Verification: A Statewide Study of New York
+53. On the Power of Source Screening for Learning Shared Feature Extractors
+54. GEAR: Generative Expansion and Real Anchoring for Two-Stage Distillation of Tabular Foundation Models
+55. G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs
+56. Safe Domain Adaptation for Physics: Overcoming Nuisances, Label Shifts, and Simulation Priors
+57. Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classification
+58. Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation
+59. Coordination on a Budget: Federated Active Learning with Few Labels
+60. Kähler landscapes for complex neural network descents and guarantees including a search and destroy of the Calabi-Yau manifold
+61. Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision
+62. Answer-Level Trust Selection for Physical Vision-Language Reasoning
+63. ChiroEcho: extending automated bat vocalisation classification beyond the learned taxonomy
+64. From Street View Imagery to Street Quality Indicators: Vision Language Inference for the Suburban 15-minute City
+65. Think Shallow, Solve Deep: Controlling Recurrent Dynamics for Reliable Test-Time Depth
+66. Composition-Driven Phase Evolution in Sm-Doped BiFeO3 via Latent-Field Reconstruction of Atomically Resolved STEM Data
+67. HeteRo-Select: Informativeness as the Participation Driver in Heterogeneous Federated Learning
+68. Orthogonal JEPA: Factorized Predictive States for Latent World Models
+69. CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning
+70. Pedagogical AI in Mental Health: A Tri-Stream Fine-Tuned LLM Framework for Automated Clinical Supervision and Risk Triage
+71. FAR-DPO: Feasibility-Aware and Robust Direct Preference Optimization for Cyclic Peptide Design
+72. OceanDepths: A Global Dataset of Paired Subsurface and Surface Ocean Observations
+73. DeltaMomentum: A Key-Value based Anisotropic Momentum Update via Delta Rule
+74. Conformal Prediction for Molecular Properties under Label Shift
+75. Discrete Diffusion Inference-Time Control with Nested Sequential Monte Carlo
+76. DeGLIF for Label Noise Robust Node Classification using GNNs
+77. Regularised Iterative Generalised Least Squares with Optimal Selection of the Hyper-Parameter for Identifying Nonlinear Phenomenological Models
+78. Performance Drift Detection in Machine Learning as a Service (MLaaS) for IoT Environments
+79. The Geometric Mechanics of Contrastive Representation Learning: Alignment Potentials, Entropic Dispersion, and Cross-modal Divergence
+80. Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket
+81. MotoSafety: Edge-AI with Learned Temporal Importance for Two-Wheeler Collision Risk Assessment Under Time Pressure
+82. The Price of Hidden Curvature: Improved Lower Bounds for Bandit Convex Optimization
+83. Procedural Content Metageneration via Program Search and Continual Abstraction Discovery
+84. Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+85. MambaX-Net: Dual-Input Mamba-Enhanced Cross-Attention Network for Longitudinal Prostate MRI Segmentation
+86. Flow Matching Meets 3D Curvilinear Structure Segmentation in Medical Imaging
+87. Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation
+88. Causal Local States: Scalable Simultaneous Causal Network Inference and Forecasting for Dynamical Systems
+89. Sobolev Regularized Score Difference Estimation in Diffusion Models
+90. PETA:Parameter-Efficient Test-Time Adaptation for Virtual Screening
+91. Topology-Aware Differential Privacy in Hierarchical Federated Learning
+92. Finite-Horizon Input-Output Dynamics of Minibatch Perturbations in AdamW
+93. Breaking the weakest link to evade vision language models
+94. GQ-FSL: Green Quantized Federated Split Learning Framework for Wireless Edge Networks
+95. Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning
+96. A Remote Approach to Cashew Orchard Detection: Leveraging Active Learning with Satellite Imagery in Guinea-Bissau
+97. Learning Topological Features of $\widehat Z$-invariants
+98. Protect the Brain When Treating the Heart: Feasibility of 2.5D U-Net for Real-Time Gaseous Microemboli Detection
+99. Multi-stage neural operator learning with application for convolutions
+100. FleetSieve: Decision-Critical Profiling for SLO-Aware LLM Fleet Configuration

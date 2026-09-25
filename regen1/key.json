@@ -1,0 +1,432 @@
+{
+  "seed": 20260925,
+  "n": 30,
+  "levelA": [
+    "A",
+    "A",
+    "A",
+    "B",
+    "B",
+    "A",
+    "A",
+    "D",
+    "A",
+    "B",
+    "D",
+    "A",
+    "D",
+    "D",
+    "A",
+    "D",
+    "D",
+    "A",
+    "B",
+    "B",
+    "B",
+    "C",
+    "A",
+    "B",
+    "C",
+    "D",
+    "B",
+    "D",
+    "A",
+    "A"
+  ],
+  "levelB": [
+    "A",
+    "D",
+    "A",
+    "D",
+    "B",
+    "A",
+    "C",
+    "D",
+    "B",
+    "B",
+    "B",
+    "A",
+    "D",
+    "A",
+    "C",
+    "D",
+    "C",
+    "D",
+    "C",
+    "D",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "A",
+    "D",
+    "C"
+  ],
+  "titlesA": [
+    [
+      "GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES",
+      "The Null Token Knows: Reducing Message-Free Hallucination in ASR and NMT",
+      "Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis",
+      "Leveraging existing sparse point annotations for benthic imagery dense segmentation"
+    ],
+    [
+      "Geometry of Forgetting: Representation Flux in Continual Learning",
+      "Diffusion Models for High-Dimensional Clustered Data: Intrinsic-Dimension Adaptivity via Bayesian Classification",
+      "MAGPIE-Net: Predicting short-duration heavy-rainfall events in station neighborhoods from multitemporal FY-4A AGRI observations",
+      "Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation"
+    ],
+    [
+      "Unifying Graph Neural Networks Through a Common Layer Equation",
+      "The Value of Finite Observation in Positive-Data Learning of Multiple Context-Free Languages",
+      "ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning",
+      "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies"
+    ],
+    [
+      "Visual-Prompt Guided Wildlife Instance-Level Recognition",
+      "Backward through Time, Algebraically",
+      "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+      "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting"
+    ],
+    [
+      "A Configuration-First Framework for Reproducible, Low-Code Machine Learning: a Localization Use Case",
+      "Feed-Forward Steering in Transformer Residual Dynamics",
+      "Doubly robust nearest neighbors in factor models",
+      "From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs"
+    ],
+    [
+      "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+      "AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM",
+      "Jailbreaking in the Haystack",
+      "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing"
+    ],
+    [
+      "WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM",
+      "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems"
+    ],
+    [
+      "Improved Confidence Estimates for Black-Box Large Language Models",
+      "Inadvertent Context Leakage in Language Models",
+      "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "TRAINING nGPT"
+    ],
+    [
+      "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis",
+      "MedStruct-S: A Benchmark for Key Discovery, Key-Conditioned QA and Semi-Structured Extraction from OCR Clinical Reports",
+      "Doubly robust nearest neighbors in factor models"
+    ],
+    [
+      "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+      "Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU",
+      "Adaptive Multi-Agent Feature Selection for Personalized Fall Risk Prevention",
+      "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models"
+    ],
+    [
+      "Why Can't I See My Clusters? A Precision-Recall Approach to Dimensionality Reduction Validation",
+      "Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning",
+      "Bootstrap Theory of Representational Emergence (TBER): Explanatory Insufficiency, Transition Regimes, and the Emergence of New Representational Levels",
+      "Addressable Memory for Video World Models"
+    ],
+    [
+      "THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES",
+      "Unsupervised Anomaly Detection Using Flow Matching on Tabular Data",
+      "Residual Algebra for Representation-Preserving Learning",
+      "Communication Reduction via Semantic-Based Encoding in DMPC Using LSTMs"
+    ],
+    [
+      "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage",
+      "Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs",
+      "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+      "DYNAMIC COMPRESSION IN RECURRENT NETWORKS"
+    ],
+    [
+      "Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics",
+      "GraphK: Variable-Size Graph Generation with Efficient Edge Construction",
+      "Model Card for OpenAI Privacy Filter",
+      "Modular Cognitive Architecture Emerges in Large Language Models"
+    ],
+    [
+      "FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING",
+      "Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control",
+      "Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents",
+      "Uncertainty-Aware Compositional Localization and Placement Assessment of Catheters and Tubes in Chest X-Rays"
+    ],
+    [
+      "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers",
+      "Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks",
+      "Escaping Local Minima Provably in Non-convex Matrix Sensing: A Deterministic Framework via Simulated Lifting",
+      "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws"
+    ],
+    [
+      "Continual Distillation Learning for Rehearsal-Free Class-Incremental Learning via Decoupled Prompting",
+      "Continuous Behavioral Authentication via Multi-Expert BERT Log Analysis for Secure Data Sharing",
+      "When Is Shallow Enough? Adaptive Split Federated Learning with Client-Specific Sufficiency Estimation",
+      "In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models"
+    ],
+    [
+      "Forecast Collapse in Time-Series Foundation Models",
+      "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+      "Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics",
+      "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings"
+    ],
+    [
+      "Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation",
+      "OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics",
+      "Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals",
+      "Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics"
+    ],
+    [
+      "From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs",
+      "Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So",
+      "Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks",
+      "MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model"
+    ],
+    [
+      "Maximum Likelihood Reinforcement Learning",
+      "（收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure",
+      "FedCoRe: Target-Adaptive Completion for Missing Modalities in Healthcare Federated Learning",
+      "Spectrally Safe Neural Operator Warm-Starts for Large-Scale Newton Solvers"
+    ],
+    [
+      "The Diffusion-Attention Connection",
+      "No Gaussian Required: Contrastive Inverse Dynamics for JEPA World Models",
+      "Language models suffer from a curse of ambiguity",
+      "Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability"
+    ],
+    [
+      "The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks",
+      "SHANG++: Robust Stochastic Acceleration under Multiplicative Noise",
+      "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+      "Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents"
+    ],
+    [
+      "Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models",
+      "Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks",
+      "Beyond Predictive Fairness: Quantifying Attribution Consistency Across Demographic Groups in Diabetic Retinopathy Screening",
+      "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage"
+    ],
+    [
+      "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "A Layered Simplex Architecture for Large Alphabets",
+      "Geometry-Guided Layerwise FFN Width Allocation in Transformers",
+      "Rethinking Privileged Information in On-Policy Self-Distillation"
+    ],
+    [
+      "Parametric and Generative Forecasts of EPEX Day-Ahead Energy Market Curves",
+      "Structured Affinity for Unsupervised Visual Class-Incremental Memory in Deep Artificial Immune Networks",
+      "Many Optimizers But Only One Training Path: Repeated Resampling for Adaptive Optimizer Selection",
+      "Understanding the Surprising Generalization Properties of Tabular Foundation Models"
+    ],
+    [
+      "Graph Machine: Exploring Edge Mechanisms as an Inductive Bias",
+      "The spectral neuron",
+      "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+      "A Locally Tokenized Generative Model for Robust Time-Series Watermarking"
+    ],
+    [
+      "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models",
+      "Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection",
+      "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+      "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence"
+    ],
+    [
+      "FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING",
+      "ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning",
+      "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+      "The Embodiment Gap in Robot Foundation Models"
+    ],
+    [
+      "Designing Compact Neural Architectures via Neuron Gating and Mixed Activation",
+      "SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning",
+      "Communication Reduction via Semantic-Based Encoding in DMPC Using LSTMs",
+      "Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors"
+    ]
+  ],
+  "titlesB": [
+    [
+      "GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES",
+      "A Layered Simplex Architecture for Large Alphabets",
+      "Interpretable Feature Learning for RF Fingerprinting via Polar MKANs",
+      "Partition of Unity Neural Networks for Interpretable Classification with Explicit Class Regions"
+    ],
+    [
+      "Residual Algebra for Representation-Preserving Learning",
+      "Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance",
+      "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+      "Geometry of Forgetting: Representation Flux in Continual Learning"
+    ],
+    [
+      "Unifying Graph Neural Networks Through a Common Layer Equation",
+      "Beyond Multimodal Alignment: Certifying Physical Language through Response Substitution and Ordered Execution",
+      "Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis",
+      "NICE: Scale-Stable Perturbations for Graph Neural Network Explanations via Noise Corruption"
+    ],
+    [
+      "Residual Algebra for Representation-Preserving Learning",
+      "Exact Algebraic Computation of Learning Coefficients for Two-Dimensional Singular Models",
+      "Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations",
+      "Backward through Time, Algebraically"
+    ],
+    [
+      "Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams",
+      "Feed-Forward Steering in Transformer Residual Dynamics",
+      "Residual Algebra for Representation-Preserving Learning",
+      "Geometric and Behavioral Stratification in Transformer Residual Streams"
+    ],
+    [
+      "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+      "RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers",
+      "Uncovering the Limits of Proof Sharing for Neural Networks",
+      "Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic"
+    ],
+    [
+      "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+      "WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM",
+      "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles"
+    ],
+    [
+      "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+      "When to Review: Spaced Repetition for Continual Pre-Training of Language Models",
+      "RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers",
+      "TRAINING nGPT"
+    ],
+    [
+      "Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking",
+      "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "When to Review: Spaced Repetition for Continual Pre-Training of Language Models",
+      "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies"
+    ],
+    [
+      "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
+      "Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU",
+      "SGHA: Evidence-Grounded Research Problem Discovery with Local Language Models",
+      "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies"
+    ],
+    [
+      "Reinforced Planning with Latent World Models",
+      "Addressable Memory for Video World Models",
+      "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model"
+    ],
+    [
+      "THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES",
+      "Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control",
+      "Does Mapping Non-Maximal Probabilities to GMM Components Matter for S-JEPA Encoder Representations?",
+      "Online Generalized Sparse Regression: How Does Overparametrization Help?"
+    ],
+    [
+      "Allocating Recurrent Compute in Looped Language Models",
+      "RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers",
+      "Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks",
+      "DYNAMIC COMPRESSION IN RECURRENT NETWORKS"
+    ],
+    [
+      "Modular Cognitive Architecture Emerges in Large Language Models",
+      "MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models",
+      "A Layered Simplex Architecture for Large Alphabets",
+      "Inadvertent Context Leakage in Language Models"
+    ],
+    [
+      "SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning",
+      "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+      "FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING",
+      "The Value of Finite Observation in Positive-Data Learning of Multiple Context-Free Languages"
+    ],
+    [
+      "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+      "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models",
+      "A Robust In-Context Model for Conservation Laws: Injecting Context into Flux Neural Operators via Recurrent Vision Transformers",
+      "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws"
+    ],
+    [
+      "Graph Machine: Exploring Edge Mechanisms as an Inductive Bias",
+      "Predicting Male Domestic Violence Using Explainable Ensemble Learning and Exploratory Data Analysis",
+      "In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models",
+      "Generalist Vision-Language Models for Fast Radio Burst detection: a zero-shot benchmark against a specialized detector"
+    ],
+    [
+      "Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking",
+      "Off-Manifold Collapse in Guided Protein Language Models",
+      "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+      "Forecast Collapse in Time-Series Foundation Models"
+    ],
+    [
+      "A FEM-Based Surrogate Modelling and Optimization Framework for Physics-Constrained Electromagnetic Coil Design",
+      "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+      "OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics",
+      "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media"
+    ],
+    [
+      "Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams",
+      "Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control",
+      "HyPE-GT: where Graph Transformers meet Hyperbolic Positional Encodings",
+      "Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So"
+    ],
+    [
+      "（收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure",
+      "The Diffusion-Attention Connection",
+      "Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks",
+      "Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs"
+    ],
+    [
+      "Off-Manifold Collapse in Guided Protein Language Models",
+      "Language models suffer from a curse of ambiguity",
+      "Inadvertent Context Leakage in Language Models",
+      "Allocating Recurrent Compute in Looped Language Models"
+    ],
+    [
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis",
+      "Uncovering the Limits of Proof Sharing for Neural Networks",
+      "The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks"
+    ],
+    [
+      "Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks",
+      "Partition of Unity Neural Networks for Interpretable Classification with Explicit Class Regions",
+      "Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models",
+      "Interpretable Feature Learning for RF Fingerprinting via Polar MKANs"
+    ],
+    [
+      "Geometric and Behavioral Stratification in Transformer Residual Streams",
+      "Geometry-Guided Layerwise FFN Width Allocation in Transformers",
+      "SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE",
+      "Allocating Recurrent Compute in Looped Language Models"
+    ],
+    [
+      "TabularQGAN: A quantum generative model for tabular data synthesis",
+      "TabNSM: Neural Sparse Mixer for Tabular Regression",
+      "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+      "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference"
+    ],
+    [
+      "Cross-Cohort Spectral-Temporal Dissociation in Frozen EEG Foundation-Model Representations",
+      "Spectrally Safe Neural Operator Warm-Starts for Large-Scale Newton Solvers",
+      "Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations",
+      "The spectral neuron"
+    ],
+    [
+      "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+      "ProxyGuard: Direct Reliability Inference for Randomized Data Release Mechanisms with Shared Targets",
+      "Graph Machine: Exploring Edge Mechanisms as an Inductive Bias",
+      "Self-Distillation as a Performance Recovery Mechanism for LLMs: Counteracting Compression and Catastrophic Forgetting"
+    ],
+    [
+      "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+      "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+      "Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model",
+      "FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING"
+    ],
+    [
+      "The impact of feature engineering and an optimisation framework for ocean colour machine learning",
+      "Quantifying Event Impacts on Time Series via Multiscale Contrastive Learning",
+      "Designing Compact Neural Architectures via Neuron Gating and Mixed Activation",
+      "A Layered Simplex Architecture for Large Alphabets"
+    ]
+  ]
+}

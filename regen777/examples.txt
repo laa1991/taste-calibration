@@ -1,0 +1,23 @@
+Papers the researcher KEPT:
+  - Language models suffer from a curse of ambiguity
+  - Forecast Collapse in Time-Series Foundation Models
+  - Hidden Gauge Controls Feature Specialization in ReLU Networks
+  - Feed-Forward Steering in Transformer Residual Dynamics
+  - TRAINING nGPT
+  - Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive
+  - RigidBench: Evaluating Rigid-Body Physics in Video Generation Models
+  - LEARNING RESHAPES POWER-LAW ANISOTROPY IN INTERNAL REPRESENTATIONS
+  - Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  - FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING
+
+Papers the researcher was shown and did NOT keep:
+  - MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models
+  - Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media
+  - Memory by Design: Probabilistic Sequence Layers
+  - SHANG++: Robust Stochastic Acceleration under Multiplicative Noise
+  - Learning Asymptotics with Convergence-Rate Guarantees using Linear Least Squares
+  - Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics
+  - Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  - WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing
+  - From Street View Imagery to Street Quality Indicators: Vision Language Inference for the Suburban 15-minute City
+  - DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories

@@ -1,0 +1,42 @@
+{
+  "random|A": {
+    "hit": 19,
+    "n": 60
+  },
+  "random|B": {
+    "hit": 15,
+    "n": 60
+  },
+  "shortest|A": {
+    "hit": 23,
+    "n": 60
+  },
+  "shortest|B": {
+    "hit": 30,
+    "n": 60
+  },
+  "kNN5|A": {
+    "hit": 25,
+    "n": 60
+  },
+  "kNN5|B": {
+    "hit": 16,
+    "n": 60
+  },
+  "LR|A": {
+    "hit": 38,
+    "n": 60
+  },
+  "LR|B": {
+    "hit": 31,
+    "n": 60
+  },
+  "LLM blind|A": {
+    "hit": 41,
+    "n": 60
+  },
+  "LLM blind|B": {
+    "hit": 33,
+    "n": 60
+  }
+}

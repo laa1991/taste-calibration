@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES
+  (B) The Null Token Knows: Reducing Message-Free Hallucination in ASR and NMT
+  (C) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (D) Leveraging existing sparse point annotations for benthic imagery dense segmentation
+
+Q2.
+  (A) Geometry of Forgetting: Representation Flux in Continual Learning
+  (B) Diffusion Models for High-Dimensional Clustered Data: Intrinsic-Dimension Adaptivity via Bayesian Classification
+  (C) MAGPIE-Net: Predicting short-duration heavy-rainfall events in station neighborhoods from multitemporal FY-4A AGRI observations
+  (D) Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+
+Q3.
+  (A) Unifying Graph Neural Networks Through a Common Layer Equation
+  (B) The Value of Finite Observation in Positive-Data Learning of Multiple Context-Free Languages
+  (C) ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning
+  (D) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+
+Q4.
+  (A) Visual-Prompt Guided Wildlife Instance-Level Recognition
+  (B) Backward through Time, Algebraically
+  (C) SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation
+  (D) An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting
+
+Q5.
+  (A) A Configuration-First Framework for Reproducible, Low-Code Machine Learning: a Localization Use Case
+  (B) Feed-Forward Steering in Transformer Residual Dynamics
+  (C) Doubly robust nearest neighbors in factor models
+  (D) From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs
+
+Q6.
+  (A) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (B) AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM
+  (C) Jailbreaking in the Haystack
+  (D) WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing
+
+Q7.
+  (A) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+  (B) An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting
+  (C) Bidirectional representational alignment between biological and artificial neural networks
+  (D) ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems
+
+Q8.
+  (A) Improved Confidence Estimates for Black-Box Large Language Models
+  (B) Inadvertent Context Leakage in Language Models
+  (C) WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing
+  (D) TRAINING nGPT
+
+Q9.
+  (A) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+  (B) Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis
+  (C) MedStruct-S: A Benchmark for Key Discovery, Key-Conditioned QA and Semi-Structured Extraction from OCR Clinical Reports
+  (D) Doubly robust nearest neighbors in factor models
+
+Q10.
+  (A) Discretizing Continuous Time Series for Imputation with Masked Diffusion Training
+  (B) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (C) Adaptive Multi-Agent Feature Selection for Personalized Fall Risk Prevention
+  (D) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+
+Q11.
+  (A) Why Can't I See My Clusters? A Precision-Recall Approach to Dimensionality Reduction Validation
+  (B) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+  (C) Bootstrap Theory of Representational Emergence (TBER): Explanatory Insufficiency, Transition Regimes, and the Emergence of New Representational Levels
+  (D) Addressable Memory for Video World Models
+
+Q12.
+  (A) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (B) Unsupervised Anomaly Detection Using Flow Matching on Tabular Data
+  (C) Residual Algebra for Representation-Preserving Learning
+  (D) Communication Reduction via Semantic-Based Encoding in DMPC Using LSTMs
+
+Q13.
+  (A) Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage
+  (B) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+  (C) Auditing Cross-Lingual Fairness in Language Model Watermarking
+  (D) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+
+Q14.
+  (A) Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics
+  (B) GraphK: Variable-Size Graph Generation with Efficient Edge Construction
+  (C) Model Card for OpenAI Privacy Filter
+  (D) Modular Cognitive Architecture Emerges in Large Language Models
+
+Q15.
+  (A) FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING
+  (B) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (C) Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents
+  (D) Uncertainty-Aware Compositional Localization and Placement Assessment of Catheters and Tubes in Chest X-Rays
+
+Q16.
+  (A) DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers
+  (B) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (C) Escaping Local Minima Provably in Non-convex Matrix Sensing: A Deterministic Framework via Simulated Lifting
+  (D) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+
+Q17.
+  (A) Continual Distillation Learning for Rehearsal-Free Class-Incremental Learning via Decoupled Prompting
+  (B) Continuous Behavioral Authentication via Multi-Expert BERT Log Analysis for Secure Data Sharing
+  (C) When Is Shallow Enough? Adaptive Split Federated Learning with Client-Specific Sufficiency Estimation
+  (D) In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models
+
+Q18.
+  (A) Forecast Collapse in Time-Series Foundation Models
+  (B) SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation
+  (C) Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics
+  (D) Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings
+
+Q19.
+  (A) Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+  (B) OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics
+  (C) Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals
+  (D) Table2Image: Lightweight Tabular Learning with Generated Proxy Representations and Reliability Diagnostics
+
+Q20.
+  (A) From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs
+  (B) Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So
+  (C) Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks
+  (D) MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model
+
+Q21.
+  (A) Maximum Likelihood Reinforcement Learning
+  (B) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+  (C) FedCoRe: Target-Adaptive Completion for Missing Modalities in Healthcare Federated Learning
+  (D) Spectrally Safe Neural Operator Warm-Starts for Large-Scale Newton Solvers
+
+Q22.
+  (A) The Diffusion-Attention Connection
+  (B) No Gaussian Required: Contrastive Inverse Dynamics for JEPA World Models
+  (C) Language models suffer from a curse of ambiguity
+  (D) Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability
+
+Q23.
+  (A) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+  (B) SHANG++: Robust Stochastic Acceleration under Multiplicative Noise
+  (C) Auditing Cross-Lingual Fairness in Language Model Watermarking
+  (D) Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents
+
+Q24.
+  (A) Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models
+  (B) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  (C) Beyond Predictive Fairness: Quantifying Attribution Consistency Across Demographic Groups in Diabetic Retinopathy Screening
+  (D) Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage
+
+Q25.
+  (A) WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing
+  (B) A Layered Simplex Architecture for Large Alphabets
+  (C) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (D) Rethinking Privileged Information in On-Policy Self-Distillation
+
+Q26.
+  (A) Parametric and Generative Forecasts of EPEX Day-Ahead Energy Market Curves
+  (B) Structured Affinity for Unsupervised Visual Class-Incremental Memory in Deep Artificial Immune Networks
+  (C) Many Optimizers But Only One Training Path: Repeated Resampling for Adaptive Optimizer Selection
+  (D) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+
+Q27.
+  (A) Graph Machine: Exploring Edge Mechanisms as an Inductive Bias
+  (B) The spectral neuron
+  (C) Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection
+  (D) A Locally Tokenized Generative Model for Robust Time-Series Watermarking
+
+Q28.
+  (A) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+  (B) Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection
+  (C) Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction
+  (D) Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence
+
+Q29.
+  (A) FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING
+  (B) ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning
+  (C) An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models
+  (D) The Embodiment Gap in Robot Foundation Models
+
+Q30.
+  (A) Designing Compact Neural Architectures via Neuron Gating and Mixed Activation
+  (B) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+  (C) Communication Reduction via Semantic-Based Encoding in DMPC Using LSTMs
+  (D) Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors

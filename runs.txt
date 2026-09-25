@@ -1,0 +1,194 @@
+# taste-calibration — verbatim console record of one full pass
+# generated 2026-09-25 12:09:54 +08:00 · node v22.22.2 · cwd = repo root
+# all scripts are deterministic given their seeds; no network is used by any of them
+
+
+===== node ladder.mjs 200 =====
+POS = 1992  (train 1161 / test 831)
+NEG = 482  (train 241 / test-pool 241, of which 2026-08 173)
+features = 18142
+LR trained in 535 ms
+
+### cohort ALL vintages (2022-2026)  (n=200, built in 145 ms)
+difficulty knob — mean cosine(test positive, distractor) per level:
+  L0 random      mean=0.035  p90=0.075  max=0.263
+  L1 same-month  mean=0.035  p90=0.074  max=0.259
+  L2 nearest     mean=0.176  p90=0.249  max=0.417
+player   L0 random         L1 same-month     L2 nearest        
+rand     22.0% [17%-28%]   24.5% [19%-31%]   26.0% [20%-32%]   
+short    49.0% [42%-56%]   47.5% [41%-54%]   51.5% [45%-58%]   
+knn5     60.0% [53%-67%]   62.5% [56%-69%]   40.0% [33%-47%]   
+lr       68.0% [61%-74%]   71.5% [65%-77%]   49.5% [43%-56%]   
+
+### cohort 2026-08 only (vintage-matched)  (n=64, built in 45 ms)
+difficulty knob — mean cosine(test positive, distractor) per level:
+  L0 random      mean=0.030  p90=0.062  max=0.146
+  L1 same-month  mean=0.037  p90=0.077  max=0.261
+  L2 nearest     mean=0.177  p90=0.261  max=0.406
+player   L0 random         L1 same-month     L2 nearest        
+rand     28.1% [19%-40%]   28.1% [19%-40%]   25.0% [16%-37%]   
+short    53.1% [41%-65%]   50.0% [38%-62%]   57.8% [46%-69%]   
+knn5     45.3% [34%-57%]   45.3% [34%-57%]   29.7% [20%-42%]   
+lr       51.6% [40%-63%]   62.5% [50%-73%]   37.5% [27%-50%]   
+
+wrote ladder-results-200.json
+
+
+===== node replay.mjs =====
+ground truth (section "Week of 2026-08-22") = 37
+candidate pool = 380  (positive rate 9.7%; real rate is ~1%)
+train positives = 1955   train negatives = 139 (non-August only)
+
+=== selectors, same ground truth (37), same pool (380) ===
+agent (blog 15)  picks 15  hit  5  P= 33.3% [15%-58%]  R= 13.5%  F1=0.192
+LR title-only    picks 15  hit  7  P= 46.7% [25%-70%]  R= 18.9%  F1=0.269
+kNN5 title-only  picks 15  hit  7  P= 46.7% [25%-70%]  R= 18.9%  F1=0.269
+shortest-15      picks 15  hit  4  P= 26.7% [11%-52%]  R= 10.8%  F1=0.154
+longest-15 (control) picks 15  hit  0  P=  0.0% [0%-20%]  R=  0.0%  F1=0.000
+random-15 (x400) picks 15  hit 1.37  P=  9.1%            R=  3.7%
+
+rank of the agent's 15 picks inside my LR ordering (1 = my top pick; pool is 380):
+  88, 17, 7, n/a, 150, 51, 169, n/a, 1, 72, 177, n/a, n/a, 77, n/a   median=77
+
+my LR top-15:
+   1. HIT Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive
+   2. HIT WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF MUSI
+   3.     Where A Small Language Model Helps in Invoice Categorisation, Understood Throu
+   4. HIT In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Spe
+   5.     A systematic review of machine learning techniques to address diagnosis and tr
+   6.     What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Co
+   7. HIT On the Principles Behind Neural Network Optimizers
+   8. HIT Deep neural networks as lattice gauge theories
+   9.     What Can Artificial Intelligence Learn from Medicine? Generative Analogies and
+  10. HIT Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3
+  11.     Transfer Learning in Nonparametric Regression with Deep ReLU Networks
+  12.     Quantum-Logic Tsetlin Machines: Interpretable Quantum Machine Learning with Co
+  13.     Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global T
+  14.     Graph Machine: Exploring Edge Mechanisms as an Inductive Bias
+  15. HIT Tensor Field Models
+
+of the 37 he kept, my LR puts these in its top-15 / ranks them:
+  rank   1  Layers Matter: Why Continual Learning Regularization Should Be Layer-Adapt
+  rank   2  WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF 
+  rank   4  In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and
+  rank   7  On the Principles Behind Neural Network Optimizers
+  rank   8  Deep neural networks as lattice gauge theories
+  rank  10  Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLa
+  rank  15  Tensor Field Models
+  rank  16  Emergent Models: Intelligence from Tiny Substrates
+  rank  17  THE ROAD TAKEN: THE ROLE OF OPTIMIZERS AT THE EDGE OF STABILITY
+  rank  19  WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSI
+  rank  43  Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via I
+  rank  50  LEARNING RESHAPES POWER-LAW ANISOTROPY IN INTERNAL REPRESENTATIONS
+  rank  57  KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+  rank  63  SoftModel: A Neural Model That Grows Its Own Topology
+  rank  64  RigidBench: Evaluating Rigid-Body Physics in Video Generation Models
+  rank  70  OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mecha
+  rank  76  Understanding the Surprising Generalization Properties of Tabular Foundati
+  rank  85  Language models suffer from a curse of ambiguity
+  rank  89  Unifying Graph Neural Networks Through a Common Layer Equation
+  rank 106  WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+  rank 115  Designing Compact Neural Architectures via Neuron Gating and Mixed Activat
+  rank 116  FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEA
+  rank 130  When AI Designs AI: Innovation or Imitation?
+  rank 132  Backward through Time, Algebraically
+  rank 133  Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What 
+  rank 144  Unknown Unknowns: Model Misspecification in Machine Learning for Physics
+  rank 150  Geometry of Forgetting: Representation Flux in Continual Learning
+  rank 175  Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Att
+  rank 177  Measuring Structured Predictability in Neural Training Dynamics: A Cross-R
+  rank 186  Hide&Seek: Learning to Explain in an End-to-End Differentiable Network
+  rank 189  Modular Cognitive Architecture Emerges in Large Language Models
+  rank 210  GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES
+  rank 246  DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+  rank 250  GENERATIVE LEARNING OF SEPARATRICES
+  rank 263  AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive S
+  rank 315  Forecast Collapse in Time-Series Foundation Models
+  rank 338  The concentration game: Bayesian updating, regret, and information
+
+wrote replay-results.json
+
+
+===== node compare.mjs =====
+questions: L0=60  L2=60   distinct titles shown: 258
+train positives = 1943/1992   train negatives = 273/482
+
+=== same questions for everybody — accuracy (chance 25%) ===
+player        L0 (game-like)          L2 (topically matched)  
+random        19/60 =  31.7% [21%-44%]15/60 =  25.0% [16%-37%]
+shortest      23/60 =  38.3% [27%-51%]30/60 =  50.0% [38%-62%]
+kNN5          25/60 =  41.7% [30%-54%]16/60 =  26.7% [17%-39%]
+LR            38/60 =  63.3% [51%-74%]31/60 =  51.7% [39%-64%]
+LLM blind     41/60 =  68.3% [56%-79%]33/60 =  55.0% [42%-67%]
+
+=== per question-set (the replication check) ===
+LLM blind   L0  set1 24/30   set2 17/30
+LLM blind   L2  set1 18/30   set2 15/30
+LR          L0  set1 21/30   set2 17/30
+LR          L2  set1 17/30   set2 14/30
+shortest    L0  set1 11/30   set2 12/30
+shortest    L2  set1 14/30   set2 16/30
+
+LLM blind+examples on the SAME L2/set1 questions: 19/30 = 63.3%  (blind on those same questions: 18/30)
+
+wrote compare-results.json
+
+
+===== node paired.mjs =====
+blind (0 ex)     18/30 =  60.0%  [42%-75%]
+20 examples      19/30 =  63.3%  [46%-78%]
+200 examples     21/30 =  70.0%  [52%-83%]
+blind (0 ex) -> 20 examples:  gained 2, lost 1, net 1, McNemar exact p=1.000
+20 examples -> 200 examples:  gained 4, lost 2, net 2, McNemar exact p=0.688
+
+per-question pattern (1=right) — blind / +20 / +200:
+  1234567891 0111213141 5161718192 0212223242 5262728293 0
+  0000011010 0101111101 1110011111   blind (0 ex)
+  0100011110 0101111101 0110011111   20 examples
+  0110011111 0101111111 1110011010   200 examples
+
+
+===== node audit.mjs =====
+L0: correct-title length  mean=61.9 median=63   distractor length mean=74.4 median=75
+L2: correct-title length  mean=61.9 median=63   distractor length mean=75.7 median=74
+
+distractor-minus-correct length gap:  L0 = 12.5 chars   L2 = 13.7 chars   (delta 1.3)
+=> the L2 selection did widen the gap, but by 1.3 of 12.5 chars: the length cue is mostly the data's, not the construction's.
+
+
+===== node lengths.mjs =====
+title length in alphanumeric characters:
+his collection (all)         n=1992  mean= 59.4  median= 59  p10= 34  p90= 85
+his collection (2026-08)     n=  64  mean= 58.6  median= 59  p10= 32  p90= 90
+distractors (all)            n= 482  mean= 74.5  median= 73  p10= 51  p90=100
+distractors (2026-08)        n= 343  mean= 74.5  median= 73  p10= 51  p90=102
+
+predicted accuracy of "the shortest title wins" (1 pos + 3 random distractors):
+  his 2026-08 vs distractors 2026-08 : 47.7%
+  his all      vs distractors all     : 47.9%
+
+
+===== node score.mjs ans-A.txt:levelA ans-B.txt:levelB ans-C.txt:levelB ans-D.txt:levelB ans-A2.txt:levelA ans-B2.txt:levelB =====
+ans-A.txt    [regen1/key.json    ] vs levelA   parsed 30/30  correct 24/30 = 80.0%  [63%-90%]
+             misses: Q1:B≠A Q3:D≠A Q5:C≠B Q11:C≠D Q22:A≠C Q30:B≠A
+ans-B.txt    [regen1/key.json    ] vs levelB   parsed 30/30  correct 18/30 = 60.0%  [42%-75%]
+             misses: Q1:D≠A Q2:B≠D Q3:D≠A Q4:B≠D Q5:A≠B Q8:B≠D Q10:D≠B Q11:C≠B Q13:C≠D Q19:B≠C Q24:B≠A Q25:A≠B
+ans-C.txt    [regen1/key.json    ] vs levelB   parsed 30/30  correct 19/30 = 63.3%  [46%-78%]
+             misses: Q1:D≠A Q3:D≠A Q4:B≠D Q5:D≠B Q10:D≠B Q11:C≠B Q13:C≠D Q19:B≠C Q21:B≠A Q24:B≠A Q25:A≠B
+ans-D.txt    [regen1/key.json    ] vs levelB   parsed 30/30  correct 21/30 = 70.0%  [52%-83%]
+             misses: Q1:D≠A Q4:B≠D Q5:A≠B Q11:C≠B Q13:C≠D Q24:B≠A Q25:A≠B Q28:C≠A Q30:B≠C
+ans-A2.txt   [regen777/key.json  ] vs levelA   parsed 30/30  correct 17/30 = 56.7%  [39%-73%]
+             misses: Q1:D≠A Q4:A≠B Q5:A≠B Q9:C≠B Q11:A≠C Q12:A≠B Q13:C≠D Q14:A≠C Q16:C≠B Q18:C≠D Q20:B≠A Q25:C≠D Q29:B≠D
+ans-B2.txt   [regen777/key.json  ] vs levelB   parsed 30/30  correct 15/30 = 50.0%  [33%-67%]
+             misses: Q1:D≠A Q4:C≠B Q5:C≠A Q6:D≠C Q7:C≠B Q8:C≠D Q14:D≠B Q15:C≠A Q16:C≠B Q18:A≠B Q20:A≠B Q22:A≠C Q24:D≠C Q27:C≠A Q28:A≠D
+
+key files loaded: regen1/key.json(seed 20260925)  regen777/key.json(seed 777)
+
+
+===== node fetch-data.mjs =====
+papers.json        expect 649366 B / 88e8732dffdc…
+  live   649366 B / 88e8732dffdc…  MATCH
+  (kept the local snapshot; rerun with --force to overwrite)
+distractors.json   expect 90465 B / 6d8011b40747…
+  live    90465 B / 6d8011b40747…  MATCH
+  (kept the local snapshot; rerun with --force to overwrite)

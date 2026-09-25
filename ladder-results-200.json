@@ -1,0 +1,263 @@
+{
+  "seed": 20260925,
+  "res": [
+    {
+      "label": "ALL vintages (2022-2026)",
+      "n": 200,
+      "scores": {
+        "rand": [
+          44,
+          49,
+          52
+        ],
+        "short": [
+          98,
+          95,
+          103
+        ],
+        "knn5": [
+          120,
+          125,
+          80
+        ],
+        "lr": [
+          136,
+          143,
+          99
+        ]
+      },
+      "simMean": [
+        0.03501628777356015,
+        0.0349504147573963,
+        0.1760011396291005
+      ],
+      "examples": [
+        {
+          "lv": 0,
+          "correct": "Categorical Invariants of Learning Dynamics",
+          "options": [
+            ">>> pos Categorical Invariants of Learning Dynamics",
+            "    neg The Good, the Bad, and the Ugly of Markov Boundary for Tabular Prediction",
+            "    neg FedCoRe: Target-Adaptive Completion for Missing Modalities in Healthcare Federated Learning",
+            "    neg SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE"
+          ],
+          "ans": {
+            "rand": 1,
+            "short": 0,
+            "knn5": 0,
+            "lr": 0
+          }
+        },
+        {
+          "lv": 1,
+          "correct": "Categorical Invariants of Learning Dynamics",
+          "options": [
+            "    neg Fourth-Moment Geometry of Rademacher Sums",
+            "    neg Orthogonal JEPA: Factorized Predictive States for Latent World Models",
+            ">>> pos Categorical Invariants of Learning Dynamics",
+            "    neg Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis"
+          ],
+          "ans": {
+            "rand": 1,
+            "short": 0,
+            "knn5": 2,
+            "lr": 2
+          }
+        },
+        {
+          "lv": 2,
+          "correct": "Categorical Invariants of Learning Dynamics",
+          "options": [
+            "    neg Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks",
+            "    neg Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+            ">>> pos Categorical Invariants of Learning Dynamics",
+            "    neg Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents"
+          ],
+          "ans": {
+            "rand": 2,
+            "short": 2,
+            "knn5": 0,
+            "lr": 0
+          }
+        },
+        {
+          "lv": 0,
+          "correct": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+          "options": [
+            "    neg Why Can't I See My Clusters? A Precision-Recall Approach to Dimensionality Reduction Validation",
+            ">>> pos Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+            "    neg TabNSM: Neural Sparse Mixer for Tabular Regression",
+            "    neg Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems"
+          ],
+          "ans": {
+            "rand": 2,
+            "short": 2,
+            "knn5": 1,
+            "lr": 2
+          }
+        },
+        {
+          "lv": 1,
+          "correct": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+          "options": [
+            "    neg OOD Detection for EEG-based Machine Learning in High-Risk Environments",
+            "    neg Fourth-Moment Geometry of Rademacher Sums",
+            "    neg Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models",
+            ">>> pos Knowledge is a Region in Weight Space for Fine-tuned Language Models"
+          ],
+          "ans": {
+            "rand": 2,
+            "short": 1,
+            "knn5": 3,
+            "lr": 1
+          }
+        },
+        {
+          "lv": 2,
+          "correct": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+          "options": [
+            "    neg Inadvertent Context Leakage in Language Models",
+            ">>> pos Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+            "    neg Allocating Recurrent Compute in Looped Language Models",
+            "    neg When to Review: Spaced Repetition for Continual Pre-Training of Language Models"
+          ],
+          "ans": {
+            "rand": 2,
+            "short": 0,
+            "knn5": 0,
+            "lr": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "2026-08 only (vintage-matched)",
+      "n": 64,
+      "scores": {
+        "rand": [
+          18,
+          18,
+          16
+        ],
+        "short": [
+          34,
+          32,
+          37
+        ],
+        "knn5": [
+          29,
+          29,
+          19
+        ],
+        "lr": [
+          33,
+          40,
+          24
+        ]
+      },
+      "simMean": [
+        0.029563842708779806,
+        0.03654010143438884,
+        0.17667236991022653
+      ],
+      "examples": [
+        {
+          "lv": 0,
+          "correct": "Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks",
+          "options": [
+            "    neg Leveraging existing sparse point annotations for benthic imagery dense segmentation",
+            "    neg A Data-Efficient Analytical Prior Machine Learning Framework for Sound Reduction Frequency Prediction in Helmholtz Resonators",
+            ">>> pos Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks",
+            "    neg Grounded verification of chemical and materials reasoning: detection is the bottleneck"
+          ],
+          "ans": {
+            "rand": 1,
+            "short": 0,
+            "knn5": 2,
+            "lr": 2
+          }
+        },
+        {
+          "lv": 1,
+          "correct": "Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks",
+          "options": [
+            "    neg Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage",
+            "    neg MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+            "    neg Time-Uniform Self-Normalized Concentration for Discounted Least Squares: Limits and Corrections",
+            ">>> pos Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks"
+          ],
+          "ans": {
+            "rand": 1,
+            "short": 1,
+            "knn5": 3,
+            "lr": 3
+          }
+        },
+        {
+          "lv": 2,
+          "correct": "Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks",
+          "options": [
+            "    neg Bootstrap Theory of Representational Emergence (TBER): Explanatory Insufficiency, Transition Regimes, and the Emergence of New Representational Levels",
+            "    neg Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks",
+            "    neg Bidirectional representational alignment between biological and artificial neural networks",
+            ">>> pos Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks"
+          ],
+          "ans": {
+            "rand": 0,
+            "short": 2,
+            "knn5": 1,
+            "lr": 1
+          }
+        },
+        {
+          "lv": 0,
+          "correct": "Geometry of Forgetting: Representation Flux in Continual Learning",
+          "options": [
+            "    neg Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model",
+            "    neg Time-Uniform Self-Normalized Concentration for Discounted Least Squares: Limits and Corrections",
+            "    neg Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics",
+            ">>> pos Geometry of Forgetting: Representation Flux in Continual Learning"
+          ],
+          "ans": {
+            "rand": 2,
+            "short": 3,
+            "knn5": 3,
+            "lr": 3
+          }
+        },
+        {
+          "lv": 1,
+          "correct": "Geometry of Forgetting: Representation Flux in Continual Learning",
+          "options": [
+            "    neg An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+            "    neg Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic",
+            ">>> pos Geometry of Forgetting: Representation Flux in Continual Learning",
+            "    neg Unsupervised Anomaly Detection Using Flow Matching on Tabular Data"
+          ],
+          "ans": {
+            "rand": 3,
+            "short": 2,
+            "knn5": 2,
+            "lr": 2
+          }
+        },
+        {
+          "lv": 2,
+          "correct": "Geometry of Forgetting: Representation Flux in Continual Learning",
+          "options": [
+            ">>> pos Geometry of Forgetting: Representation Flux in Continual Learning",
+            "    neg Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+            "    neg Residual Algebra for Representation-Preserving Learning",
+            "    neg Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance"
+          ],
+          "ans": {
+            "rand": 1,
+            "short": 2,
+            "knn5": 0,
+            "lr": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) Small-Scale Experiments: Are We There Yet?
+  (B) Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling
+  (C) FedCoRe: Target-Adaptive Completion for Missing Modalities in Healthcare Federated Learning
+  (D) A single design choice determines whether machine learning models of materials make physically impossible predictions
+
+Q2.
+  (A) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+  (B) Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning
+  (C) DraftFM: A FoundationModel for Day-Zero Drafting in Magic: The Gathering
+  (D) Evaluating Structured Information Extraction with Open Models in a High Risk Public Sector Application
+
+Q3.
+  (A) Pairwise Ranking Outperforms Single-Action RL for Offline Explanation Selection: A Practical Lesson
+  (B) Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs
+  (C) Monotone Classification with Relative Approximations
+  (D) A Real-Time Tsetlin Machine-based Non-intrusive Load Monitoring System on MCUs
+
+Q4.
+  (A) Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability
+  (B) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  (C) Model Card for OpenAI Privacy Filter
+  (D) From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs
+
+Q5.
+  (A) On the Slow Convergence to Trivial Solutions of Algorithms for Hard Optimization Problems
+  (B) AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+  (C) AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM
+  (D) A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+
+Q6.
+  (A) MAGPIE-Net: Predicting short-duration heavy-rainfall events in station neighborhoods from multitemporal FY-4A AGRI observations
+  (B) From Diffusion to Flow: Efficient Motion Generation in MotionGPT3
+  (C) Simple, Safe, and Overlooked: Reclaiming Sustainable Domain Generalization with Statistical Color Matching
+  (D) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+
+Q7.
+  (A) Approximate Speculative Decoding
+  (B) Towards Formalizing Reinforcement Learning Theory: A Robbins-Siegmund Approach
+  (C) In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models
+  (D) The Label Horizon Paradox: Rethinking Supervision Targets in Financial Forecasting
+
+Q8.
+  (A) Towards Lightweight Reliability: Using Soft Prompts for Hallucination Mitigation in Large Language Models
+  (B) MIXFORMER: LINEAR TRANSFORMER WITH MIXTURE OF MEMORY EXPERTS
+  (C) Learning-Based Speed Estimation from Accelerometer-Only Inertial Sensing
+  (D) Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation
+
+Q9.
+  (A) From Diffusion to Flow: Efficient Motion Generation in MotionGPT3
+  (B) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+  (C) Evidence Before Expansion: Reuse, Spawn, or Defer in Lifelong Expert Pools
+  (D) Teacher-free Latent Self-distillation and Class-separable Representations for Lightweight IoT Attack Detection
+
+Q10.
+  (A) Reinforced Planning with Latent World Models
+  (B) Selection, Recombination, or a Fresh Solve? A Candidate-Free Control for Single-Pass Test-Time Aggregation
+  (C) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (D) Evaluating and improving crop-yield forecasting methods during extreme drought
+
+Q11.
+  (A) A Unifying Relational Perspective on Expressive Lottery Tickets
+  (B) Fourth-Moment Geometry of Rademacher Sums
+  (C) Addressable Memory for Video World Models
+  (D) Efficient Resource Optimization for Split Federated Learning
+
+Q12.
+  (A) Toward the Optimal Regret-Instability Trade-off in Multi-Armed Bandits
+  (B) WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF MUSIC FOUNDATION MODELS
+  (C) Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis
+  (D) Automated Computational Energy Minimization of ML Algorithms using Constrained Bayesian Optimization
+
+Q13.
+  (A) Learning piecewise-smooth dynamical systems
+  (B) Gated Graph Attention Networks with Learnable Temperature
+  (C) Untrainable elements determine what physical learning remembers
+  (D) Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
+
+Q14.
+  (A) From Prediction to Self: Developmental Conditions for Agency in Minimal Neural Systems
+  (B) A single design choice determines whether machine learning models of materials make physically impossible predictions
+  (C) Emergent Models: Intelligence from Tiny Substrates
+  (D) Exact Algebraic Computation of Learning Coefficients for Two-Dimensional Singular Models
+
+Q15.
+  (A) AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM
+  (B) Evaluating Structured Information Extraction with Open Models in a High Risk Public Sector Application
+  (C) When AI Designs AI: Innovation or Imitation?
+  (D) SIGMA: Symmetry-aware, Intelligent, Geometric, Multi-objective Adaptive Control for Robust, Dependable Traffic Management
+
+Q16.
+  (A) Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs
+  (B) KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+  (C) The Embodiment Gap in Robot Foundation Models
+  (D) The Optimal Sample Complexity of Multiclass and List Learning
+
+Q17.
+  (A) Change Point--Aware Evaluation and Re-Calibration of PPG-Based Blood Pressure Estimation
+  (B) Correlation flow governs learning at criticality
+  (C) The Good, the Bad, and the Ugly of Markov Boundary for Tabular Prediction
+  (D) Infrared Universality of Collective Dynamics across Transformer and State-Space Architectures
+
+Q18.
+  (A) Generalist Vision-Language Models for Fast Radio Burst detection: a zero-shot benchmark against a specialized detector
+  (B) A Repeated Measurements Approach to $SoH$ Battery Modelling of Cyclic Aged Data in a Laboratory Environment
+  (C) Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles
+  (D) SoftModel: A Neural Model That Grows Its Own Topology
+
+Q19.
+  (A) Monotone Classification with Relative Approximations
+  (B) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (C) PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents
+  (D) Time-Uniform Self-Normalized Concentration for Discounted Least Squares: Limits and Corrections
+
+Q20.
+  (A) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  (B) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+  (C) Low-Power, Neuromorphic, Acoustic Anomaly Detection for Persistent Machine Monitoring
+  (D) Eyes on the Image: Gaze Supervised Multimodal Learning for Chest X-ray Diagnosis and Report Generation
+
+Q21.
+  (A) Clustered Attractor Manifolds and Dynamical Condensation in Self-Attention
+  (B) Multi-Modal Graph Interaction for Multi-Graph Convolution Network in Urban Spatiotemporal Forecasting
+  (C) Learning piecewise-smooth dynamical systems
+  (D) Rethinking Weight-Averaged Model-merging
+
+Q22.
+  (A) FiLoRA: Focus-and-Ignore LoRA for Controllable Feature Reliance
+  (B) AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM
+  (C) Hide&Seek: Learning to Explain in an End-to-End Differentiable Network
+  (D) Cross-Cohort Spectral-Temporal Dissociation in Frozen EEG Foundation-Model Representations
+
+Q23.
+  (A) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (B) Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+  (C) Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries
+  (D) Learning Hierarchical Skill Policies with Offline Quality-Diversity Reinforcement Learning
+
+Q24.
+  (A) Modular Cognitive Architecture Emerges in Large Language Models
+  (B) Parametric and Generative Forecasts of EPEX Day-Ahead Energy Market Curves
+  (C) Green BOA: Determining the environmental break-even point for ML-based data compression
+  (D) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+
+Q25.
+  (A) Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum
+  (B) MIFR: A Modality-Invariant and Fair Representation Framework for Skin Disease Classification
+  (C) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (D) The concentration game: Bayesian updating, regret, and information
+
+Q26.
+  (A) Denoising-Aware Inversion: Revealing Privacy Risks in Noise-Protected Text Embeddings
+  (B) Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals
+  (C) Towards Formalizing Reinforcement Learning Theory: A Robbins-Siegmund Approach
+  (D) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+
+Q27.
+  (A) VQC-ZTI: Variational Quantum Control for Zero Trust Protection of the Tactile Internet
+  (B) A Real-Time Tsetlin Machine-based Non-intrusive Load Monitoring System on MCUs
+  (C) Tensor Field Models
+  (D) FedCoRe: Target-Adaptive Completion for Missing Modalities in Healthcare Federated Learning
+
+Q28.
+  (A) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+  (B) Self-Distillation as a Performance Recovery Mechanism for LLMs: Counteracting Compression and Catastrophic Forgetting
+  (C) RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations
+  (D) RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers
+
+Q29.
+  (A) Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL
+  (B) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (C) Score the Algebra, Not the Span: Dimension Reduction for Transfer Operator Models of Dynamical Systems
+  (D) WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+
+Q30.
+  (A) Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking
+  (B) GENERATIVE LEARNING OF SEPARATRICES
+  (C) On the Slow Convergence to Trivial Solutions of Algorithms for Hard Optimization Problems
+  (D) SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection

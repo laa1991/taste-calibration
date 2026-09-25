@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles drawn from the SAME narrow topic, so the choice is close. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) Small-Scale Experiments: Are We There Yet?
+  (B) Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking
+  (C) Looking Beyond the Scale: Do Surgical Skill Models Learn Transferable Representations Across Assessment Rubrics?
+  (D) Evidence Before Expansion: Reuse, Spawn, or Defer in Lifelong Expert Pools
+
+Q2.
+  (A) A Robust In-Context Model for Conservation Laws: Injecting Context into Flux Neural Operators via Recurrent Vision Transformers
+  (B) From Inference to Adaptation: A Unified Optimal Transport View of Vision Language Model
+  (C) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+  (D) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+
+Q3.
+  (A) Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs
+  (B) Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams
+  (C) Geometric and Behavioral Stratification in Transformer Residual Streams
+  (D) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+
+Q4.
+  (A) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (B) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  (C) Bootstrap Theory of Representational Emergence (TBER): Explanatory Insufficiency, Transition Regimes, and the Emergence of New Representational Levels
+  (D) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+
+Q5.
+  (A) AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+  (B) Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis
+  (C) MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use
+  (D) ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning
+
+Q6.
+  (A) SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection
+  (B) Infrared Universality of Collective Dynamics across Transformer and State-Space Architectures
+  (C) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+  (D) Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study
+
+Q7.
+  (A) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+  (B) In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models
+  (C) Evidence Before Expansion: Reuse, Spawn, or Defer in Lifelong Expert Pools
+  (D) Graph Machine: Exploring Edge Mechanisms as an Inductive Bias
+
+Q8.
+  (A) Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals
+  (B) Towards Efficient Pareto Set Approximation via Mixture of Experts Based Model Fusion
+  (C) Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study
+  (D) MIXFORMER: LINEAR TRANSFORMER WITH MIXTURE OF MEMORY EXPERTS
+
+Q9.
+  (A) Reliable Neural Collapse Approximation for Open-World Test-Time Adaptation
+  (B) MIFR: A Modality-Invariant and Fair Representation Framework for Skin Disease Classification
+  (C) Anti-Collapse Dynamics and the Emergence of Multi-Time-Scale Learning in Recurrent Neural Networks
+  (D) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+
+Q10.
+  (A) Does Mapping Non-Maximal Probabilities to GMM Components Matter for S-JEPA Encoder Representations?
+  (B) When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift
+  (C) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (D) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+
+Q11.
+  (A) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (B) Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models
+  (C) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (D) Addressable Memory for Video World Models
+
+Q12.
+  (A) WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF MUSIC FOUNDATION MODELS
+  (B) What Makes Software Issue Resolution Tasks Difficult for Agents?
+  (C) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (D) The Good, the Bad, and the Ugly of Markov Boundary for Tabular Prediction
+
+Q13.
+  (A) Eyes on the Image: Gaze Supervised Multimodal Learning for Chest X-ray Diagnosis and Report Generation
+  (B) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+  (C) Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
+  (D) Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals
+
+Q14.
+  (A) Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting
+  (B) Emergent Models: Intelligence from Tiny Substrates
+  (C) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (D) Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+
+Q15.
+  (A) When AI Designs AI: Innovation or Imitation?
+  (B) Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design
+  (C) A single design choice determines whether machine learning models of materials make physically impossible predictions
+  (D) Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design
+
+Q16.
+  (A) Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline
+  (B) KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+  (C) Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals
+  (D) End-to-end Early Classification of Time Series in Non-Stationary Environments
+
+Q17.
+  (A) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+  (B) Time-Uniform Self-Normalized Concentration for Discounted Least Squares: Limits and Corrections
+  (C) Correlation flow governs learning at criticality
+  (D) Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling
+
+Q18.
+  (A) Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design
+  (B) SoftModel: A Neural Model That Grows Its Own Topology
+  (C) Verifiably grounded machine interpretation of lunar geology
+  (D) DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents
+
+Q19.
+  (A) What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies
+  (B) Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning
+  (C) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (D) Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+
+Q20.
+  (A) From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems
+  (B) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  (C) Interpretable Feature Learning for RF Fingerprinting via Polar MKANs
+  (D) TabularQGAN: A quantum generative model for tabular data synthesis
+
+Q21.
+  (A) Clustered Attractor Manifolds and Dynamical Condensation in Self-Attention
+  (B) The Diffusion-Attention Connection
+  (C) From Prediction to Self: Developmental Conditions for Agency in Minimal Neural Systems
+  (D) Cluster Aggregated GAN (CAG): A Cluster-Based Hybrid Model for Appliance Pattern Generation
+
+Q22.
+  (A) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (B) End-to-end Early Classification of Time Series in Non-Stationary Environments
+  (C) Hide&Seek: Learning to Explain in an End-to-End Differentiable Network
+  (D) Quantum Tensor Network Learning with DMRG
+
+Q23.
+  (A) RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers
+  (B) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (C) Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2HPO)
+  (D) H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification
+
+Q24.
+  (A) Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis
+  (B) Improved Confidence Estimates for Black-Box Large Language Models
+  (C) Modular Cognitive Architecture Emerges in Large Language Models
+  (D) MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use
+
+Q25.
+  (A) Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization
+  (B) Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum
+  (C) Automated Computational Energy Minimization of ML Algorithms using Constrained Bayesian Optimization
+  (D) The concentration game: Bayesian updating, regret, and information
+
+Q26.
+  (A) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+  (B) Concentrated Liquidity Provision: a Reinforcement Learning Perspective
+  (C) A Unifying Relational Perspective on Expressive Lottery Tickets
+  (D) Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks
+
+Q27.
+  (A) Tensor Field Models
+  (B) Reinforced Planning with Latent World Models
+  (C) Quantum Tensor Network Learning with DMRG
+  (D) Self-supervised In-context Operator Learning for Stochastic Mean-Field Control
+
+Q28.
+  (A) Score the Algebra, Not the Span: Dimension Reduction for Transfer Operator Models of Dynamical Systems
+  (B) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+  (C) SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval
+  (D) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+
+Q29.
+  (A) WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+  (B) HBVLA: Pushing 1-Bit Post-Training Quantization for Vision-Language-Action Models
+  (C) An Empirical Study of Reward Specification and Benchmark Reliability in GRPO-based LLM Unlearning
+  (D) AutoOR: Scalably Post-training LLMs to Autoformalize Operations Research Problems
+
+Q30.
+  (A) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (B) GENERATIVE LEARNING OF SEPARATRICES
+  (C) Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling
+  (D) Parametric and Generative Forecasts of EPEX Day-Ahead Energy Market Curves
