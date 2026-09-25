@@ -1,0 +1,6 @@
+# keep the repository byte-stable across platforms: everything is LF on checkout too,
+# so a clone reproduces the same bytes as the snapshot this repo was measured on.
+* text=auto eol=lf
+*.json text eol=lf
+*.png binary
+*.pdf binary
