@@ -1,0 +1,794 @@
+{
+  "source": "https://huggingface.co/api/daily_papers?date=YYYY-MM-DD",
+  "fetched": "2026-09-25T15:44:55.3809050+08:00",
+  "fetched_via": "powershell Invoke-RestMethod (node fetch could not reach the host from this box)",
+  "days": {
+    "2026-08-16": [],
+    "2026-08-17": [
+      {
+        "id": "2608.14391",
+        "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+        "upvotes": 285
+      },
+      {
+        "id": "2608.14144",
+        "title": "Self-Supervised Visual On-Policy Distillation",
+        "upvotes": 125
+      },
+      {
+        "id": "2608.11341",
+        "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
+        "upvotes": 71
+      },
+      {
+        "id": "2608.13417",
+        "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+        "upvotes": 59
+      },
+      {
+        "id": "2608.14277",
+        "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+        "upvotes": 36
+      },
+      {
+        "id": "2608.14290",
+        "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+        "upvotes": 35
+      },
+      {
+        "id": "2608.14530",
+        "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+        "upvotes": 35
+      },
+      {
+        "id": "2608.13517",
+        "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+        "upvotes": 30
+      },
+      {
+        "id": "2608.13606",
+        "title": "MobileMem: Learning from a Year of Mobile Experiences",
+        "upvotes": 27
+      },
+      {
+        "id": "2608.13040",
+        "title": "Latent On-Policy Self-Distillation",
+        "upvotes": 26
+      },
+      {
+        "id": "2608.13555",
+        "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+        "upvotes": 18
+      },
+      {
+        "id": "2608.13667",
+        "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+        "upvotes": 17
+      },
+      {
+        "id": "2608.13567",
+        "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+        "upvotes": 16
+      },
+      {
+        "id": "2608.14546",
+        "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+        "upvotes": 16
+      },
+      {
+        "id": "2608.14284",
+        "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.14071",
+        "title": "Scaling Domain Data Repetition in LLM Pretraining",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.11994",
+        "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+        "upvotes": 12
+      },
+      {
+        "id": "2608.09928",
+        "title": "Multimodal Model Diffing for Feature Discovery and Control",
+        "upvotes": 11
+      },
+      {
+        "id": "2608.11612",
+        "title": "Dion3: Full-Stack Orthogonal Updates",
+        "upvotes": 11
+      },
+      {
+        "id": "2608.14106",
+        "title": "Forecast Collapse in Time-Series Foundation Models",
+        "upvotes": 9
+      },
+      {
+        "id": "2608.13545",
+        "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+        "upvotes": 8
+      },
+      {
+        "id": "2608.03744",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "upvotes": 6
+      },
+      {
+        "id": "2608.00220",
+        "title": "Verifier-Induced Support Reshaping in On-Policy Optimization",
+        "upvotes": 6
+      },
+      {
+        "id": "2608.13987",
+        "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.14075",
+        "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.12209",
+        "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.13760",
+        "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.10835",
+        "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.12571",
+        "title": "Is this Citation on Point?",
+        "upvotes": 3
+      },
+      {
+        "id": "2608.09209",
+        "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.13410",
+        "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
+        "upvotes": 1
+      },
+      {
+        "id": "2608.14138",
+        "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+        "upvotes": 1
+      }
+    ],
+    "2026-08-18": [
+      {
+        "id": "2608.15089",
+        "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+        "upvotes": 448
+      },
+      {
+        "id": "2608.16859",
+        "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+        "upvotes": 121
+      },
+      {
+        "id": "2608.15669",
+        "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+        "upvotes": 63
+      },
+      {
+        "id": "2608.15265",
+        "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+        "upvotes": 60
+      },
+      {
+        "id": "2608.15045",
+        "title": "MOSS-VL Technical Report",
+        "upvotes": 52
+      },
+      {
+        "id": "2608.16072",
+        "title": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+        "upvotes": 49
+      },
+      {
+        "id": "2608.15930",
+        "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+        "upvotes": 47
+      },
+      {
+        "id": "2608.16798",
+        "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+        "upvotes": 41
+      },
+      {
+        "id": "2608.16887",
+        "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+        "upvotes": 36
+      },
+      {
+        "id": "2608.16319",
+        "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
+        "upvotes": 31
+      },
+      {
+        "id": "2608.14441",
+        "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+        "upvotes": 29
+      },
+      {
+        "id": "2608.16721",
+        "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+        "upvotes": 28
+      },
+      {
+        "id": "2608.13900",
+        "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+        "upvotes": 27
+      },
+      {
+        "id": "2608.14783",
+        "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
+        "upvotes": 20
+      },
+      {
+        "id": "2608.14577",
+        "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+        "upvotes": 19
+      },
+      {
+        "id": "2608.16884",
+        "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+        "upvotes": 19
+      },
+      {
+        "id": "2608.16033",
+        "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
+        "upvotes": 17
+      },
+      {
+        "id": "2608.15304",
+        "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
+        "upvotes": 17
+      },
+      {
+        "id": "2608.14905",
+        "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.16765",
+        "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+        "upvotes": 14
+      },
+      {
+        "id": "2608.16328",
+        "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
+        "upvotes": 13
+      },
+      {
+        "id": "2608.16391",
+        "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
+        "upvotes": 13
+      },
+      {
+        "id": "2608.16143",
+        "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+        "upvotes": 12
+      },
+      {
+        "id": "2608.14718",
+        "title": "VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding",
+        "upvotes": 11
+      },
+      {
+        "id": "2608.16320",
+        "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+        "upvotes": 9
+      },
+      {
+        "id": "2608.15869",
+        "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+        "upvotes": 8
+      },
+      {
+        "id": "2608.10679",
+        "title": "ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.12898",
+        "title": "NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
+        "upvotes": 6
+      },
+      {
+        "id": "2608.15698",
+        "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.14614",
+        "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.16003",
+        "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.15022",
+        "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.15659",
+        "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+        "upvotes": 3
+      },
+      {
+        "id": "2608.11947",
+        "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.14639",
+        "title": "Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.14606",
+        "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.16435",
+        "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.14667",
+        "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.06947",
+        "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.15984",
+        "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+        "upvotes": 1
+      },
+      {
+        "id": "2608.15037",
+        "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+        "upvotes": 1
+      },
+      {
+        "id": "2608.16485",
+        "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
+        "upvotes": 1
+      }
+    ],
+    "2026-08-19": [
+      {
+        "id": "2608.17310",
+        "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+        "upvotes": 109
+      },
+      {
+        "id": "2608.16157",
+        "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+        "upvotes": 86
+      },
+      {
+        "id": "2608.14036",
+        "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+        "upvotes": 80
+      },
+      {
+        "id": "2608.17271",
+        "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+        "upvotes": 66
+      },
+      {
+        "id": "2608.17512",
+        "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+        "upvotes": 52
+      },
+      {
+        "id": "2608.17528",
+        "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+        "upvotes": 35
+      },
+      {
+        "id": "2608.13556",
+        "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+        "upvotes": 30
+      },
+      {
+        "id": "2608.12313",
+        "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+        "upvotes": 30
+      },
+      {
+        "id": "2608.17393",
+        "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+        "upvotes": 25
+      },
+      {
+        "id": "2608.18063",
+        "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+        "upvotes": 23
+      },
+      {
+        "id": "2608.17067",
+        "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+        "upvotes": 22
+      },
+      {
+        "id": "2608.17402",
+        "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+        "upvotes": 19
+      },
+      {
+        "id": "2608.15454",
+        "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+        "upvotes": 19
+      },
+      {
+        "id": "2608.17566",
+        "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
+        "upvotes": 16
+      },
+      {
+        "id": "2608.15008",
+        "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.18933",
+        "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+        "upvotes": 13
+      },
+      {
+        "id": "2608.18076",
+        "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+        "upvotes": 13
+      },
+      {
+        "id": "2608.17800",
+        "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+        "upvotes": 12
+      },
+      {
+        "id": "2608.17286",
+        "title": "Abra: Scaling Diffusion Image Training",
+        "upvotes": 11
+      },
+      {
+        "id": "2608.17597",
+        "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+        "upvotes": 10
+      },
+      {
+        "id": "2608.05811",
+        "title": "Energy-Guided Flow Matching",
+        "upvotes": 9
+      },
+      {
+        "id": "2608.14221",
+        "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.14881",
+        "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.16393",
+        "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.17975",
+        "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.17050",
+        "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+        "upvotes": 6
+      },
+      {
+        "id": "2608.16097",
+        "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+        "upvotes": 6
+      },
+      {
+        "id": "2608.16977",
+        "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.17988",
+        "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.16002",
+        "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+        "upvotes": 5
+      },
+      {
+        "id": "2608.17379",
+        "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+        "upvotes": 4
+      },
+      {
+        "id": "2608.16793",
+        "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
+        "upvotes": 3
+      },
+      {
+        "id": "2608.12944",
+        "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+        "upvotes": 1
+      }
+    ],
+    "2026-08-20": [
+      {
+        "id": "2608.17426",
+        "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+        "upvotes": 160
+      },
+      {
+        "id": "2608.16590",
+        "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+        "upvotes": 152
+      },
+      {
+        "id": "2608.17253",
+        "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+        "upvotes": 98
+      },
+      {
+        "id": "2608.18565",
+        "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+        "upvotes": 74
+      },
+      {
+        "id": "2608.19197",
+        "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+        "upvotes": 54
+      },
+      {
+        "id": "2608.13558",
+        "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+        "upvotes": 41
+      },
+      {
+        "id": "2608.18940",
+        "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+        "upvotes": 34
+      },
+      {
+        "id": "2608.18171",
+        "title": "Looped Language Models Improve Compositional Tool Calling",
+        "upvotes": 23
+      },
+      {
+        "id": "2608.18423",
+        "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+        "upvotes": 21
+      },
+      {
+        "id": "2608.18746",
+        "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+        "upvotes": 18
+      },
+      {
+        "id": "2608.14929",
+        "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+        "upvotes": 18
+      },
+      {
+        "id": "2608.14229",
+        "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+        "upvotes": 17
+      },
+      {
+        "id": "2608.13947",
+        "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.18701",
+        "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.18607",
+        "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+        "upvotes": 12
+      },
+      {
+        "id": "2608.18852",
+        "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+        "upvotes": 8
+      },
+      {
+        "id": "2608.15964",
+        "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.15888",
+        "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+        "upvotes": 3
+      },
+      {
+        "id": "2608.18115",
+        "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+        "upvotes": 3
+      },
+      {
+        "id": "2512.14629",
+        "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.19080",
+        "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+        "upvotes": 2
+      },
+      {
+        "id": "2608.16490",
+        "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+        "upvotes": 1
+      }
+    ],
+    "2026-08-21": [
+      {
+        "id": "2608.19880",
+        "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+        "upvotes": 174
+      },
+      {
+        "id": "2608.18580",
+        "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+        "upvotes": 93
+      },
+      {
+        "id": "2608.20335",
+        "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+        "upvotes": 85
+      },
+      {
+        "id": "2608.19799",
+        "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+        "upvotes": 67
+      },
+      {
+        "id": "2608.20336",
+        "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+        "upvotes": 42
+      },
+      {
+        "id": "2608.20202",
+        "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+        "upvotes": 34
+      },
+      {
+        "id": "2608.13120",
+        "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+        "upvotes": 30
+      },
+      {
+        "id": "2608.14022",
+        "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+        "upvotes": 23
+      },
+      {
+        "id": "2608.19854",
+        "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+        "upvotes": 22
+      },
+      {
+        "id": "2607.21596",
+        "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+        "upvotes": 21
+      },
+      {
+        "id": "2608.19758",
+        "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+        "upvotes": 20
+      },
+      {
+        "id": "2608.12875",
+        "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+        "upvotes": 16
+      },
+      {
+        "id": "2608.19891",
+        "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+        "upvotes": 16
+      },
+      {
+        "id": "2608.16885",
+        "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+        "upvotes": 15
+      },
+      {
+        "id": "2608.17744",
+        "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+        "upvotes": 14
+      },
+      {
+        "id": "2608.20281",
+        "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+        "upvotes": 14
+      },
+      {
+        "id": "2608.19936",
+        "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+        "upvotes": 12
+      },
+      {
+        "id": "2608.08466",
+        "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+        "upvotes": 11
+      },
+      {
+        "id": "2608.13210",
+        "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+        "upvotes": 10
+      },
+      {
+        "id": "2608.18027",
+        "title": "Chain-of-Experience for Continual LLM Improvement",
+        "upvotes": 10
+      },
+      {
+        "id": "2608.15767",
+        "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
+        "upvotes": 9
+      },
+      {
+        "id": "2608.19861",
+        "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+        "upvotes": 9
+      },
+      {
+        "id": "2608.19759",
+        "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+        "upvotes": 8
+      },
+      {
+        "id": "2608.13547",
+        "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.19776",
+        "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+        "upvotes": 7
+      },
+      {
+        "id": "2608.19863",
+        "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
+        "upvotes": 6
+      }
+    ],
+    "2026-08-22": []
+  }
+}

@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles drawn from the SAME narrow topic, so the choice is close. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+  (B) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (C) Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning
+  (D) MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents
+
+Q2.
+  (A) Reinforced Planning with Latent World Models
+  (B) Diffusion Models for Smarter UAVs: Decision-Making and Modeling
+  (C) Self-supervised In-context Operator Learning for Stochastic Mean-Field Control
+  (D) Tensor Field Models
+
+Q3.
+  (A) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+  (B) SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection
+  (C) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (D) A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+
+Q4.
+  (A) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (B) WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+  (C) Empirical Characterization of Learning Geometry in Hybrid Quantum Forecasting Models
+  (D) Global Crises and National Policies: A Large Scale Analysis of Political Content in German Language Online Media
+
+Q5.
+  (A) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  (B) The Good, the Bad, and the Ugly of Markov Boundary for Tabular Prediction
+  (C) Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference
+  (D) MoRAX: Mobility-based Representation Augmentation for Geospatial Foundation Models
+
+Q6.
+  (A) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+  (B) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+  (C) Vector Symbolic Policy Gradient
+  (D) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+
+Q7.
+  (A) Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting
+  (B) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+  (C) Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition
+  (D) BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding
+
+Q8.
+  (A) Sphere Retraction Normalizations
+  (B) Towards Formalizing Reinforcement Learning Theory: A Robbins-Siegmund Approach
+  (C) BRo-JEPA: Learning Modular Transformations in Latent Space
+  (D) Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition
+
+Q9.
+  (A) Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media
+  (B) A systematic review of machine learning techniques to address diagnosis and treatment of autism: challenges and opportunities
+  (C) Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents
+  (D) OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics
+
+Q10.
+  (A) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (B) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (C) FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING
+  (D) Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning
+
+Q11.
+  (A) LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Claude Sonnet 4
+  (B) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (C) TRAINING nGPT
+  (D) Debate Training Reduces Reward Hacking in RLAIF
+
+Q12.
+  (A) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+  (B) Protoreasoning in Tiny Transformers
+  (C) Geometric and Behavioral Stratification in Transformer Residual Streams
+  (D) Continual Reasoning Gym: Diagnosing and Harnessing Shared Reasoning in Continual RLVR
+
+Q13.
+  (A) Geometric Iterative Retrieval for Neural Audio Codec Resynthesis
+  (B) Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models
+  (C) Likelihood Hacking in Probabilistic Program Synthesis
+  (D) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+
+Q14.
+  (A) A Locally Tokenized Generative Model for Robust Time-Series Watermarking
+  (B) GENERATIVE LEARNING OF SEPARATRICES
+  (C) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (D) Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling
+
+Q15.
+  (A) Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection
+  (B) End-to-end Early Classification of Time Series in Non-Stationary Environments
+  (C) KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+  (D) Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals
+
+Q16.
+  (A) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+  (B) Online Learning for Dynamic Constellation Topologies
+  (C) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q17.
+  (A) Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks
+  (B) Uncovering the Limits of Proof Sharing for Neural Networks
+  (C) Concentrated Liquidity Provision: a Reinforcement Learning Perspective
+  (D) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+
+Q18.
+  (A) Structured Latent Space Modeling over Multi-Scale Temporal Patches for Multivariate Time Series Forecasting
+  (B) Forecast Collapse in Time-Series Foundation Models
+  (C) DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
+  (D) ReAugment: Model Zoo-Guided RL for Few-Shot Time Series Augmentation and Forecasting
+
+Q19.
+  (A) Geometric and Behavioral Stratification in Transformer Residual Streams
+  (B) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (C) Elimination Geometry
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q20.
+  (A) From Inference to Adaptation: A Unified Optimal Transport View of Vision Language Model
+  (B) Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+  (C) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+  (D) Learning Deterministic and Stochastic Forced Hamiltonian Systems
+
+Q21.
+  (A) Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic
+  (B) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (C) Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2HPO)
+  (D) H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification
+
+Q22.
+  (A) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (B) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+  (C) Many Optimizers But Only One Training Path: Repeated Resampling for Adaptive Optimizer Selection
+  (D) When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift
+
+Q23.
+  (A) Bidirectional representational alignment between biological and artificial neural networks
+  (B) Uncovering the Limits of Proof Sharing for Neural Networks
+  (C) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+  (D) Deep neural networks as lattice gauge theories
+
+Q24.
+  (A) WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+  (B) Bidirectional representational alignment between biological and artificial neural networks
+  (C) A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection
+  (D) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+
+Q25.
+  (A) BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding
+  (B) Modular Cognitive Architecture Emerges in Large Language Models
+  (C) Improved Confidence Estimates for Black-Box Large Language Models
+  (D) MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models
+
+Q26.
+  (A) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (B) Addressable Memory for Video World Models
+  (C) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (D) Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models
+
+Q27.
+  (A) OceanDepths: A Global Dataset of Paired Subsurface and Surface Ocean Observations
+  (B) Harness Continual Learning: Continual Adaptation Beyond Model Parameters
+  (C) FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING
+  (D) Quantum Gaussian processes for prediction of channel observations
+
+Q28.
+  (A) MIFR: A Modality-Invariant and Fair Representation Framework for Skin Disease Classification
+  (B) Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models
+  (C) Geometric and Behavioral Stratification in Transformer Residual Streams
+  (D) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+
+Q29.
+  (A) Vector Symbolic Policy Gradient
+  (B) Uncovering the Limits of Proof Sharing for Neural Networks
+  (C) Bidirectional representational alignment between biological and artificial neural networks
+  (D) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+
+Q30.
+  (A) Inference and Uncertainty Quantification for Streaming $r$-PCA
+  (B) Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+  (C) Discretizing Continuous Time Series for Imputation with Masked Diffusion Training
+  (D) Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions

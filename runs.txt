@@ -1,15 +1,16 @@
 # taste-calibration — verbatim console record of one full pass
-# generated 2026-09-25 12:09:54 +08:00 · node v22.22.2 · cwd = repo root
-# all scripts are deterministic given their seeds; no network is used by any of them
+# generated 2026-09-25 15:52:50 +08:00 · node v22.22.2 · cwd = repo root
+# all scripts are deterministic given their seeds; only popularity.mjs and fetch-data.mjs touch the network
+# (popularity.mjs runs offline here: it reads the shipped popularity-snapshot.json)
 
 
 ===== node ladder.mjs 200 =====
 POS = 1992  (train 1161 / test 831)
 NEG = 482  (train 241 / test-pool 241, of which 2026-08 173)
 features = 18142
-LR trained in 535 ms
+LR trained in 478 ms
 
-### cohort ALL vintages (2022-2026)  (n=200, built in 145 ms)
+### cohort ALL vintages (2022-2026)  (n=200, built in 133 ms)
 difficulty knob — mean cosine(test positive, distractor) per level:
   L0 random      mean=0.035  p90=0.075  max=0.263
   L1 same-month  mean=0.035  p90=0.074  max=0.259
@@ -20,7 +21,7 @@ short    49.0% [42%-56%]   47.5% [41%-54%]   51.5% [45%-58%]
 knn5     60.0% [53%-67%]   62.5% [56%-69%]   40.0% [33%-47%]   
 lr       68.0% [61%-74%]   71.5% [65%-77%]   49.5% [43%-56%]   
 
-### cohort 2026-08 only (vintage-matched)  (n=64, built in 45 ms)
+### cohort 2026-08 only (vintage-matched)  (n=64, built in 44 ms)
 difficulty knob — mean cosine(test positive, distractor) per level:
   L0 random      mean=0.030  p90=0.062  max=0.146
   L1 same-month  mean=0.037  p90=0.077  max=0.261
@@ -110,24 +111,28 @@ wrote replay-results.json
 
 
 ===== node compare.mjs =====
-questions: L0=60  L2=60   distinct titles shown: 258
-train positives = 1943/1992   train negatives = 273/482
+questions: L0=120  L2=120   distinct titles shown: 385
+train positives = 1932/1992   train negatives = 157/482
 
 === same questions for everybody — accuracy (chance 25%) ===
 player        L0 (game-like)          L2 (topically matched)  
-random        19/60 =  31.7% [21%-44%]15/60 =  25.0% [16%-37%]
-shortest      23/60 =  38.3% [27%-51%]30/60 =  50.0% [38%-62%]
-kNN5          25/60 =  41.7% [30%-54%]16/60 =  26.7% [17%-39%]
-LR            38/60 =  63.3% [51%-74%]31/60 =  51.7% [39%-64%]
+random        28/120 =  23.3% [17%-32%]34/120 =  28.3% [21%-37%]
+shortest      54/120 =  45.0% [36%-54%]64/120 =  53.3% [44%-62%]
+kNN5          47/120 =  39.2% [31%-48%]32/120 =  26.7% [20%-35%]
+LR            66/120 =  55.0% [46%-64%]53/120 =  44.2% [36%-53%]
 LLM blind     41/60 =  68.3% [56%-79%]33/60 =  55.0% [42%-67%]
 
-=== per question-set (the replication check) ===
-LLM blind   L0  set1 24/30   set2 17/30
-LLM blind   L2  set1 18/30   set2 15/30
-LR          L0  set1 21/30   set2 17/30
-LR          L2  set1 17/30   set2 14/30
-shortest    L0  set1 11/30   set2 12/30
-shortest    L2  set1 14/30   set2 16/30
+=== per question-set, and the spread across sets (this is the honest error bar) ===
+random      L0  set1 7/30  set2 5/30  set3 10/30  set4 5/30   median 20.0% [16.7%–33.3%]  (4 samples)
+random      L2  set1 9/30  set2 8/30  set3 4/30  set4 7/30   median 25.0% [13.3%–30.0%]  (4 samples)
+shortest    L0  set1 11/30  set2 12/30  set3 17/30  set4 14/30   median 43.3% [36.7%–56.7%]  (4 samples)
+shortest    L2  set1 14/30  set2 16/30  set3 16/30  set4 18/30   median 53.3% [46.7%–60.0%]  (4 samples)
+kNN5        L0  set1 13/30  set2 11/30  set3 11/30  set4 12/30   median 38.3% [36.7%–43.3%]  (4 samples)
+kNN5        L2  set1 10/30  set2 6/30  set3 8/30  set4 8/30   median 26.7% [20.0%–33.3%]  (4 samples)
+LR          L0  set1 20/30  set2 14/30  set3 18/30  set4 14/30   median 53.3% [46.7%–66.7%]  (4 samples)
+LR          L2  set1 13/30  set2 10/30  set3 16/30  set4 14/30   median 45.0% [33.3%–53.3%]  (4 samples)
+LLM blind   L0  set1 24/30  set2 17/30  set3 —  set4 —   median 68.3% [56.7%–80.0%]  (2 samples)
+LLM blind   L2  set1 18/30  set2 15/30  set3 —  set4 —   median 55.0% [50.0%–60.0%]  (2 samples)
 
 LLM blind+examples on the SAME L2/set1 questions: 19/30 = 63.3%  (blind on those same questions: 18/30)
 
@@ -146,6 +151,69 @@ per-question pattern (1=right) — blind / +20 / +200:
   0000011010 0101111101 1110011111   blind (0 ex)
   0100011110 0101111101 0110011111   20 examples
   0110011111 0101111111 1110011010   200 examples
+
+
+===== node popularity.mjs =====
+using cached popularity-snapshot.json (7 days); --refresh to re-fetch
+
+feed entries 155 · distinct arXiv ids 155 over 7 days
+ground truth (his collection, that week) = 37
+coverage: 4/37 of his kept papers appear anywhere in the feed
+          155 feed papers, so 4/155 of the feed is "he kept it"
+
+=== popularity selector (top 15 by upvotes across the week) ===
+  hits 0/15  precision 0.0%  recall 0.0%
+  reference on the 380-paper replay pool: random 15 ≈ 1.46 hits
+  top 15:
+    1. up= 448      2608.15089  StateM: Reaching 95.3% Raw Accuracy, or a \$15 Frontier Run, o
+    2. up= 285      2608.14391  Can We Defend Against AI-Generated Video Attacks on Real-World
+    3. up= 174      2608.19880  EnvHarness: Awakening Static Worlds for Agent Learning
+    4. up= 160      2608.17426  SemComp-Bench: Benchmarking Semantic Task Completion in Video 
+    5. up= 152      2608.16590  Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Ev
+    6. up= 125      2608.14144  Self-Supervised Visual On-Policy Distillation
+    7. up= 121      2608.16859  HarnessEval-W: Agentifying the Evaluation of Visual Worlds
+    8. up= 109      2608.17310  Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minima
+    9. up=  98      2608.17253  Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in M
+   10. up=  93      2608.18580  FACET: Preserving Source Intent and Executable State in Termin
+   11. up=  86      2608.16157  FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Ad
+   12. up=  85      2608.20335  4DAnyone: Create Anyone in 4D from a Casual Monocular Video
+   13. up=  80      2608.14036  Demystifying Agent Skills: Why They Work-Until They Don't
+   14. up=  74      2608.18565  SemaPLC: A Project-Grounded, Verification-Gated Agent Harness 
+   15. up=  71      2608.11341  Apodex Discovery: Reality Benchmarks and Environments for Eval
+
+overlap with the reported agent's 15: 0/15
+
+wrote popularity-results.json
+
+
+===== node power.mjs =====
+== a 4-option player vs CHANCE (25%) — questions needed ==
+   true rate 35%  ->  n ≈ 157
+   true rate 40%  ->  n ≈ 71
+   true rate 45%  ->  n ≈ 41
+   true rate 50%  ->  n ≈ 26
+   true rate 55%  ->  n ≈ 18
+   true rate 60%  ->  n ≈ 13
+   true rate 68%  ->  n ≈ 9
+
+== two players, 10 points apart — questions PER CELL needed ==
+   50% vs 55%  (delta 5pt)  ->  n ≈ 1565 per cell
+   50% vs 60%  (delta 10pt)  ->  n ≈ 388 per cell
+   50% vs 65%  (delta 15pt)  ->  n ≈ 170 per cell
+   50% vs 70%  (delta 20pt)  ->  n ≈ 93 per cell
+   25% vs 35%  (delta 10pt)  ->  n ≈ 329 per cell
+   40% vs 50%  (delta 10pt)  ->  n ≈ 388 per cell
+
+== what the shipped run actually had ==
+   60 questions per cell  ->  a 10-point gap (50% vs 60%) would need 388 per cell.
+   i.e. the shipped n supports "different from chance", not "equal to each other".
+
+== interval half-width at n=60 (Wilson, p≈0.5) ==
+   p=40%  ->  [28.6%, 52.6%]  (±12.0pt)
+   p=50%  ->  [37.7%, 62.3%]  (±12.3pt)
+   p=55%  ->  [42.5%, 66.9%]  (±12.2pt)
+
+=> at n=60 an interval is about ±12 points wide, so two players 10 points apart cannot be separated.
 
 
 ===== node audit.mjs =====
@@ -185,10 +253,6 @@ ans-B2.txt   [regen777/key.json  ] vs levelB   parsed 30/30  correct 15/30 = 50.
 key files loaded: regen1/key.json(seed 20260925)  regen777/key.json(seed 777)
 
 
-===== node fetch-data.mjs =====
-papers.json        expect 649366 B / 88e8732dffdc…
-  live   649366 B / 88e8732dffdc…  MATCH
-  (kept the local snapshot; rerun with --force to overwrite)
-distractors.json   expect 90465 B / 6d8011b40747…
-  live    90465 B / 6d8011b40747…  MATCH
-  (kept the local snapshot; rerun with --force to overwrite)
+===== node add-ons (not in the linear pass) =====
+# make-human-quiz.mjs writes human-baseline.html / human-baseline-core.html;
+# fetch-data.mjs checks the live collection against MANIFEST.json.

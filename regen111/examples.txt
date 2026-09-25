@@ -1,0 +1,23 @@
+Papers the researcher KEPT:
+  - Sphere Retraction Normalizations
+  - GRAPHICAL DESIGN OF INTERPRETABLE ARCHITECTURES
+  - Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
+  - THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  - WHAT MAKES A GOOD LAYER? ASSESSING THE LAYER-WISE INTRINSIC PROPERTIES OF MUSIC FOUNDATION MODELS
+  - Unknown Unknowns: Model Misspecification in Machine Learning for Physics
+  - Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+  - Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  - Language models suffer from a curse of ambiguity
+  - Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1–8B
+
+Papers the researcher was shown and did NOT keep:
+  - Evaluating Structured Information Extraction with Open Models in a High Risk Public Sector Application
+  - Grounded verification of chemical and materials reasoning: detection is the bottleneck
+  - TabNSM: Neural Sparse Mixer for Tabular Regression
+  - Kähler landscapes for complex neural network descents and guarantees including a search and destroy of the Calabi-Yau manifold
+  - Clustering and Token Denoising for Faster and More Robust VLMs
+  - Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  - Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation
+  - GEAR: Generative Expansion and Real Anchoring for Two-Stage Distillation of Tabular Foundation Models
+  - The Price of Hidden Curvature: Improved Lower Bounds for Bandit Convex Optimization
+  - OOD Detection for EEG-based Machine Learning in High-Risk Environments

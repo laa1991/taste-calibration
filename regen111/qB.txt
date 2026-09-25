@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles drawn from the SAME narrow topic, so the choice is close. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+  (B) Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis
+  (C) CarBench: A Comprehensive Benchmark for Neural Surrogates on High-Fidelity 3D Car Aerodynamics
+  (D) ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning
+
+Q2.
+  (A) THE ROAD TAKEN: THE ROLE OF OPTIMIZERS AT THE EDGE OF STABILITY
+  (B) Many Optimizers But Only One Training Path: Repeated Resampling for Adaptive Optimizer Selection
+  (C) On the Robustness of Vision-Language Models in Zero-shot Privacy Classification
+  (D) Toward the Optimal Regret-Instability Trade-off in Multi-Armed Bandits
+
+Q3.
+  (A) Inference and Uncertainty Quantification for Streaming $r$-PCA
+  (B) Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions
+  (C) Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+  (D) Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation
+
+Q4.
+  (A) Untrainable elements determine what physical learning remembers
+  (B) Looking Beyond the Scale: Do Surgical Skill Models Learn Transferable Representations Across Assessment Rubrics?
+  (C) WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+  (D) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+
+Q5.
+  (A) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (B) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+  (C) Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition
+  (D) Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting
+
+Q6.
+  (A) Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design
+  (B) Learning Topological Features of $\widehat Z$-invariants
+  (C) Online Learning for Dynamic Constellation Topologies
+  (D) SoftModel: A Neural Model That Grows Its Own Topology
+
+Q7.
+  (A) Think Shallow, Solve Deep: Controlling Recurrent Dynamics for Reliable Test-Time Depth
+  (B) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+  (C) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q8.
+  (A) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+  (B) LEARNING RESHAPES POWER-LAW ANISOTROPY IN INTERNAL REPRESENTATIONS
+  (C) Visual-Aware Representation of Web Pages for Machine Learning Applications
+  (D) Jacobian-Guided Anisotropic Noise Reshaping for Enhancing Representation Utility under Local Differential Privacy
+
+Q9.
+  (A) Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams
+  (B) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+  (C) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (D) Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs
+
+Q10.
+  (A) The spectral neuron
+  (B) Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations
+  (C) LionMuon: Alternating Spectral and Sign Descent for Efficient Training
+  (D) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+
+Q11.
+  (A) NICE: Scale-Stable Perturbations for Graph Neural Network Explanations via Noise Corruption
+  (B) Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks
+  (C) Unifying Graph Neural Networks Through a Common Layer Equation
+  (D) GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks
+
+Q12.
+  (A) TRAINING nGPT
+  (B) Debate Training Reduces Reward Hacking in RLAIF
+  (C) LionMuon: Alternating Spectral and Sign Descent for Efficient Training
+  (D) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+
+Q13.
+  (A) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (B) Addressable Memory for Video World Models
+  (C) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (D) Reinforced Planning with Latent World Models
+
+Q14.
+  (A) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (B) Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs
+  (C) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+  (D) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+
+Q15.
+  (A) The Concept Allocation Zone: Tracking How Concepts Form Across Transformer Depth
+  (B) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (C) Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So
+  (D) HyPE-GT: where Graph Transformers meet Hyperbolic Positional Encodings
+
+Q16.
+  (A) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (B) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+  (C) Dynamic Structural Causal Modeling for Sleep
+  (D) Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models
+
+Q17.
+  (A) When AI Designs AI: Innovation or Imitation?
+  (B) Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design
+  (C) Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress
+  (D) Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference
+
+Q18.
+  (A) Structured Affinity for Unsupervised Visual Class-Incremental Memory in Deep Artificial Immune Networks
+  (B) Vector Symbolic Policy Gradient
+  (C) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  (D) Uncovering the Limits of Proof Sharing for Neural Networks
+
+Q19.
+  (A) A Residual Learning Approach for Unsteady Aerodynamic Load Prediction
+  (B) Feed-Forward Steering in Transformer Residual Dynamics
+  (C) Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams
+  (D) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+
+Q20.
+  (A) On the Robustness of Vision-Language Models in Zero-shot Privacy Classification
+  (B) The Impact of CutMix on Reliability and Robustness in Semantic Segmentation
+  (C) A Robust In-Context Model for Conservation Laws: Injecting Context into Flux Neural Operators via Recurrent Vision Transformers
+  (D) Robustness Emerges Early in Training Dynamics, but Is Not Preserved
+
+Q21.
+  (A) Efficient Resource Optimization for Split Federated Learning
+  (B) Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket
+  (C) Untrainable elements determine what physical learning remembers
+  (D) Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See
+
+Q22.
+  (A) TokEval: A Tokenizer Evaluation Suite
+  (B) DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories
+  (C) RigidBench: Evaluating Rigid-Body Physics in Video Generation Models
+  (D) Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis
+
+Q23.
+  (A) Structured Latent Space Modeling over Multi-Scale Temporal Patches for Multivariate Time Series Forecasting
+  (B) DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
+  (C) Forecast Collapse in Time-Series Foundation Models
+  (D) CLaST: Context-aware Contrastive VAE for Probabilistic Time Series Forecasting
+
+Q24.
+  (A) Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference
+  (B) TabularQGAN: A quantum generative model for tabular data synthesis
+  (C) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  (D) Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models
+
+Q25.
+  (A) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+  (B) Harness Continual Learning: Continual Adaptation Beyond Model Parameters
+  (C) Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive
+  (D) Continual Reasoning Gym: Diagnosing and Harnessing Shared Reasoning in Continual RLVR
+
+Q26.
+  (A) GENERATIVE LEARNING OF SEPARATRICES
+  (B) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (C) Row-Stochastic Matrices Can Provably Outperform Doubly Stochastic Matrices in Decentralized Learning
+  (D) Parametric and Generative Forecasts of EPEX Day-Ahead Energy Market Curves
+
+Q27.
+  (A) RIPE++: Reinforced Keypoint Learning from Positive Pairs Only
+  (B) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (C) MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents
+  (D) Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+
+Q28.
+  (A) Allocating Recurrent Compute in Looped Language Models
+  (B) SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE
+  (C) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (D) The Concept Allocation Zone: Tracking How Concepts Form Across Transformer Depth
+
+Q29.
+  (A) Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations
+  (B) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+  (C) Backward through Time, Algebraically
+  (D) Exact Algebraic Computation of Learning Coefficients for Two-Dimensional Singular Models
+
+Q30.
+  (A) Tensor Field Models
+  (B) Quantum Tensor Network Learning with DMRG
+  (C) Physics-Unrolled Neural Operator for Wireless Field Modeling
+  (D) Self-supervised In-context Operator Learning for Stochastic Mean-Field Control

@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) MemCatalyst: Amplifying Data Auditing on Vision-Language Models via Data Poisoning
+  (B) Leveraging Association Context Retrieval in Knowledge Edit- ing to Build White-Box Attacks on LLMs
+  (C) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+  (D) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+
+Q2.
+  (A) WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing
+  (B) H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification
+  (C) Tensor Field Models
+  (D) Physical-Support Confidence Sets for Highly Coherent Dictionaries
+
+Q3.
+  (A) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+  (B) Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting
+  (C) Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+  (D) MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models
+
+Q4.
+  (A) Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning
+  (B) Constitutional Midtraining: Content Presence Drives Alignment Gains
+  (C) Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2HPO)
+  (D) WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS
+
+Q5.
+  (A) RequestRouter: Request-Boundary Routing for Efficient Single-GPU LLM Inference
+  (B) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  (C) Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model
+  (D) ChiroEcho: extending automated bat vocalisation classification beyond the learned taxonomy
+
+Q6.
+  (A) WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM
+  (B) Fast Best-in-Class Regret for Contextual Bandits
+  (C) Rethinking Weight-Averaged Model-merging
+  (D) To Go Far, Go Together: Diverse Preferences Induce a Curriculum for Reward Optimization
+
+Q7.
+  (A) A continually expandable foundation model for brain MRI
+  (B) Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification
+  (C) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+  (D) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+
+Q8.
+  (A) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+  (B) Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions
+  (C) ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning
+  (D) Sphere Retraction Normalizations
+
+Q9.
+  (A) OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics
+  (B) Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting
+  (C) MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model
+  (D) Rationally Enriched Chebyshev Trunk Bases for DeepONet Surrogates of High Péclet Entrance Transport
+
+Q10.
+  (A) SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation
+  (B) FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING
+  (C) PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints
+  (D) Virtual Sensing to Enable Real-Time Monitoring of Inaccessible Locations & Unmeasurable Parameters
+
+Q11.
+  (A) RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations
+  (B) Evaluating Neural Cartographic Relief Shading for Urban Environments: A Downtown Calgary Study Using High-Resolution DEM and DSM Data
+  (C) A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection
+  (D) TRAINING nGPT
+
+Q12.
+  (A) Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection
+  (B) Protoreasoning in Tiny Transformers
+  (C) Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields
+  (D) Microlensify: a Transformer Based Machine Learning Classifier for Microlensing Events Trained on TESS Light Curves
+
+Q13.
+  (A) Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks
+  (B) Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling
+  (C) WorldPack: Dynamic Frame Compression for Long-context Video World Modeling
+  (D) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+
+Q14.
+  (A) Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic
+  (B) Toward the Optimal Regret-Instability Trade-off in Multi-Armed Bandits
+  (C) Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment
+  (D) GENERATIVE LEARNING OF SEPARATRICES
+
+Q15.
+  (A) Model Card for OpenAI Privacy Filter
+  (B) RouteCost: A Production-Inspired Multi-Stage Framework for Pre-Order Shipping Cost Estimation in E-Commerce
+  (C) Quantum-Logic Tsetlin Machines: Interpretable Quantum Machine Learning with Commuting Projector Clauses
+  (D) KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING
+
+Q16.
+  (A) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+  (B) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+  (C) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+  (D) Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization
+
+Q17.
+  (A) Complementary, Not Cumulative: Interaction Effects in Physics-Informed Neural Networks for Navier-Stokes Vortex Shedding
+  (B) Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning
+  (C) ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning
+  (D) The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks
+
+Q18.
+  (A) Weak-to-Strong Generalization via Bregman Bias-Variance Decomposition
+  (B) Constitutional Midtraining: Content Presence Drives Alignment Gains
+  (C) PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints
+  (D) Forecast Collapse in Time-Series Foundation Models
+
+Q19.
+  (A) Reflex-Guard: A Low-Latency Guardrail for LLM Prompt Safety Using Dense Semantic Embeddings
+  (B) SAE-Xplainers: Rule-Based Feature Interpretation for Extreme Earth Events
+  (C) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (D) Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress
+
+Q20.
+  (A) A systematic review of machine learning techniques to address diagnosis and treatment of autism: challenges and opportunities
+  (B) Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+  (C) DeGLIF for Label Noise Robust Node Classification using GNNs
+  (D) Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation
+
+Q21.
+  (A) On the convergence of optimistic policy iteration for stochastic shortest path problem
+  (B) Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks
+  (C) Training-Free Human-in-the-Loop Anomaly Detection via Memory Bank Correction
+  (D) H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification
+
+Q22.
+  (A) A multi-view contrastive learning framework for spatial embeddings in risk modelling
+  (B) Far from the Crowd: Scalable Self-Supervised Learning via Geographic Isolation
+  (C) THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES
+  (D) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+
+Q23.
+  (A) Allocating Recurrent Compute in Looped Language Models
+  (B) Drift-Adaptive ICU Intervention Prediction: Freezing the Physiological Encoder for Auditable Model Updating
+  (C) Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection
+  (D) Deep neural networks as lattice gauge theories
+
+Q24.
+  (A) WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+  (B) Beyond Multimodal Alignment: Certifying Physical Language through Response Substitution and Ordered Execution
+  (C) Procedural Content Metageneration via Program Search and Continual Abstraction Discovery
+  (D) Projector Is All You Train
+
+Q25.
+  (A) Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning
+  (B) Modular Cognitive Architecture Emerges in Large Language Models
+  (C) On the convergence of optimistic policy iteration for stochastic shortest path problem
+  (D) Multi-Modal Graph Interaction for Multi-Graph Convolution Network in Urban Spatiotemporal Forecasting
+
+Q26.
+  (A) Asymptotic Theory for IV-Based Reinforcement Learning with Potential Endogeneity
+  (B) Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics
+  (C) Addressable Memory for Video World Models
+  (D) NanoSleep: A Parameter-Efficient Hybrid Temporal Convolutional Network for Single-Channel Sleep Stage Classification
+
+Q27.
+  (A) Model Card for OpenAI Privacy Filter
+  (B) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+  (C) FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING
+  (D) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+
+Q28.
+  (A) Kähler landscapes for complex neural network descents and guarantees including a search and destroy of the Calabi-Yau manifold
+  (B) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+  (C) Contrasting Cost-Agnostic and Cost-Sensitive Losses under Limited Model Capacity via $\mathcal H$-consistency
+  (D) RouteCost: A Production-Inspired Multi-Stage Framework for Pre-Order Shipping Cost Estimation in E-Commerce
+
+Q29.
+  (A) Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks
+  (B) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  (C) Bidirectional representational alignment between biological and artificial neural networks
+  (D) Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage
+
+Q30.
+  (A) BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding
+  (B) Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection
+  (C) Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+  (D) Multi-Modal Graph Interaction for Multi-Graph Convolution Network in Urban Spatiotemporal Forecasting

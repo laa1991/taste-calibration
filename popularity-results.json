@@ -1,0 +1,103 @@
+{
+  "note": "dirty popularity baseline; feed is HF daily papers, not restricted to cs.LG, and not every cs.LG paper lands in it",
+  "days": 7,
+  "feed_ids": 155,
+  "gt": 37,
+  "coverage": 4,
+  "hits": 0,
+  "precision": 0,
+  "recall": 0,
+  "overlap_with_agent": 0,
+  "top15": [
+    {
+      "id": "2608.15089",
+      "upvotes": 448,
+      "hit": false,
+      "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling"
+    },
+    {
+      "id": "2608.14391",
+      "upvotes": 285,
+      "hit": false,
+      "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination"
+    },
+    {
+      "id": "2608.19880",
+      "upvotes": 174,
+      "hit": false,
+      "title": "EnvHarness: Awakening Static Worlds for Agent Learning"
+    },
+    {
+      "id": "2608.17426",
+      "upvotes": 160,
+      "hit": false,
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation"
+    },
+    {
+      "id": "2608.16590",
+      "upvotes": 152,
+      "hit": false,
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence"
+    },
+    {
+      "id": "2608.14144",
+      "upvotes": 125,
+      "hit": false,
+      "title": "Self-Supervised Visual On-Policy Distillation"
+    },
+    {
+      "id": "2608.16859",
+      "upvotes": 121,
+      "hit": false,
+      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds"
+    },
+    {
+      "id": "2608.17310",
+      "upvotes": 109,
+      "hit": false,
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements"
+    },
+    {
+      "id": "2608.17253",
+      "upvotes": 98,
+      "hit": false,
+      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL"
+    },
+    {
+      "id": "2608.18580",
+      "upvotes": 93,
+      "hit": false,
+      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis"
+    },
+    {
+      "id": "2608.16157",
+      "upvotes": 86,
+      "hit": false,
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution"
+    },
+    {
+      "id": "2608.20335",
+      "upvotes": 85,
+      "hit": false,
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video"
+    },
+    {
+      "id": "2608.14036",
+      "upvotes": 80,
+      "hit": false,
+      "title": "Demystifying Agent Skills: Why They Work-Until They Don't"
+    },
+    {
+      "id": "2608.18565",
+      "upvotes": 74,
+      "hit": false,
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation"
+    },
+    {
+      "id": "2608.11341",
+      "upvotes": 71,
+      "hit": false,
+      "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence"
+    }
+  ]
+}

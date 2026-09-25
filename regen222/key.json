@@ -1,0 +1,432 @@
+{
+  "seed": 222,
+  "n": 30,
+  "levelA": [
+    "C",
+    "C",
+    "A",
+    "D",
+    "B",
+    "A",
+    "C",
+    "D",
+    "A",
+    "B",
+    "D",
+    "B",
+    "A",
+    "D",
+    "D",
+    "B",
+    "D",
+    "D",
+    "C",
+    "B",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B",
+    "C",
+    "C",
+    "B",
+    "B",
+    "C"
+  ],
+  "levelB": [
+    "B",
+    "D",
+    "A",
+    "B",
+    "A",
+    "A",
+    "B",
+    "A",
+    "D",
+    "C",
+    "C",
+    "B",
+    "D",
+    "B",
+    "C",
+    "A",
+    "D",
+    "B",
+    "B",
+    "C",
+    "B",
+    "A",
+    "D",
+    "A",
+    "B",
+    "B",
+    "C",
+    "D",
+    "D",
+    "B"
+  ],
+  "titlesA": [
+    [
+      "MemCatalyst: Amplifying Data Auditing on Vision-Language Models via Data Poisoning",
+      "Leveraging Association Context Retrieval in Knowledge Edit- ing to Build White-Box Attacks on LLMs",
+      "Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU",
+      "What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems"
+    ],
+    [
+      "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification",
+      "Tensor Field Models",
+      "Physical-Support Confidence Sets for Highly Coherent Dictionaries"
+    ],
+    [
+      "Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study",
+      "Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting",
+      "Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis",
+      "MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models"
+    ],
+    [
+      "Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning",
+      "Constitutional Midtraining: Content Presence Drives Alignment Gains",
+      "Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2HPO)",
+      "WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS"
+    ],
+    [
+      "RequestRouter: Request-Boundary Routing for Efficient Single-GPU LLM Inference",
+      "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+      "Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model",
+      "ChiroEcho: extending automated bat vocalisation classification beyond the learned taxonomy"
+    ],
+    [
+      "WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM",
+      "Fast Best-in-Class Regret for Contextual Bandits",
+      "Rethinking Weight-Averaged Model-merging",
+      "To Go Far, Go Together: Diverse Preferences Induce a Curriculum for Reward Optimization"
+    ],
+    [
+      "A continually expandable foundation model for brain MRI",
+      "Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification",
+      "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry"
+    ],
+    [
+      "Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance",
+      "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+      "ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning",
+      "Sphere Retraction Normalizations"
+    ],
+    [
+      "OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics",
+      "Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting",
+      "MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model",
+      "Rationally Enriched Chebyshev Trunk Bases for DeepONet Surrogates of High Péclet Entrance Transport"
+    ],
+    [
+      "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+      "FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING",
+      "PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints",
+      "Virtual Sensing to Enable Real-Time Monitoring of Inaccessible Locations & Unmeasurable Parameters"
+    ],
+    [
+      "RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations",
+      "Evaluating Neural Cartographic Relief Shading for Urban Environments: A Downtown Calgary Study Using High-Resolution DEM and DSM Data",
+      "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "TRAINING nGPT"
+    ],
+    [
+      "Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection",
+      "Protoreasoning in Tiny Transformers",
+      "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+      "Microlensify: a Transformer Based Machine Learning Classifier for Microlensing Events Trained on TESS Light Curves"
+    ],
+    [
+      "Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks",
+      "Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling",
+      "WorldPack: Dynamic Frame Compression for Long-context Video World Modeling",
+      "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry"
+    ],
+    [
+      "Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic",
+      "Toward the Optimal Regret-Instability Trade-off in Multi-Armed Bandits",
+      "Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment",
+      "GENERATIVE LEARNING OF SEPARATRICES"
+    ],
+    [
+      "Model Card for OpenAI Privacy Filter",
+      "RouteCost: A Production-Inspired Multi-Stage Framework for Pre-Order Shipping Cost Estimation in E-Commerce",
+      "Quantum-Logic Tsetlin Machines: Interpretable Quantum Machine Learning with Commuting Projector Clauses",
+      "KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING"
+    ],
+    [
+      "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+      "DYNAMIC COMPRESSION IN RECURRENT NETWORKS",
+      "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+      "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization"
+    ],
+    [
+      "Complementary, Not Cumulative: Interaction Effects in Physics-Informed Neural Networks for Navier-Stokes Vortex Shedding",
+      "Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning",
+      "ClosureBench: A Constructive Benchmark for Compositional Graph Reasoning",
+      "The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks"
+    ],
+    [
+      "Weak-to-Strong Generalization via Bregman Bias-Variance Decomposition",
+      "Constitutional Midtraining: Content Presence Drives Alignment Gains",
+      "PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints",
+      "Forecast Collapse in Time-Series Foundation Models"
+    ],
+    [
+      "Reflex-Guard: A Low-Latency Guardrail for LLM Prompt Safety Using Dense Semantic Embeddings",
+      "SAE-Xplainers: Rule-Based Feature Interpretation for Extreme Earth Events",
+      "Geometry-Guided Layerwise FFN Width Allocation in Transformers",
+      "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress"
+    ],
+    [
+      "A systematic review of machine learning techniques to address diagnosis and treatment of autism: challenges and opportunities",
+      "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws",
+      "DeGLIF for Label Noise Robust Node Classification using GNNs",
+      "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation"
+    ],
+    [
+      "On the convergence of optimistic policy iteration for stochastic shortest path problem",
+      "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+      "Training-Free Human-in-the-Loop Anomaly Detection via Memory Bank Correction",
+      "H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification"
+    ],
+    [
+      "A multi-view contrastive learning framework for spatial embeddings in risk modelling",
+      "Far from the Crowd: Scalable Self-Supervised Learning via Geographic Isolation",
+      "THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES",
+      "Towards Zero-Shot Task Transfer with Neurosymbolic World Models"
+    ],
+    [
+      "Allocating Recurrent Compute in Looped Language Models",
+      "Drift-Adaptive ICU Intervention Prediction: Freezing the Physiological Encoder for Auditable Model Updating",
+      "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+      "Deep neural networks as lattice gauge theories"
+    ],
+    [
+      "WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T",
+      "Beyond Multimodal Alignment: Certifying Physical Language through Response Substitution and Ordered Execution",
+      "Procedural Content Metageneration via Program Search and Continual Abstraction Discovery",
+      "Projector Is All You Train"
+    ],
+    [
+      "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
+      "Modular Cognitive Architecture Emerges in Large Language Models",
+      "On the convergence of optimistic policy iteration for stochastic shortest path problem",
+      "Multi-Modal Graph Interaction for Multi-Graph Convolution Network in Urban Spatiotemporal Forecasting"
+    ],
+    [
+      "Asymptotic Theory for IV-Based Reinforcement Learning with Potential Endogeneity",
+      "Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics",
+      "Addressable Memory for Video World Models",
+      "NanoSleep: A Parameter-Efficient Hybrid Temporal Convolutional Network for Single-Channel Sleep Stage Classification"
+    ],
+    [
+      "Model Card for OpenAI Privacy Filter",
+      "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+      "FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING",
+      "Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance"
+    ],
+    [
+      "Kähler landscapes for complex neural network descents and guarantees including a search and destroy of the Calabi-Yau manifold",
+      "（收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure",
+      "Contrasting Cost-Agnostic and Cost-Sensitive Losses under Limited Model Capacity via $\\mathcal H$-consistency",
+      "RouteCost: A Production-Inspired Multi-Stage Framework for Pre-Order Shipping Cost Estimation in E-Commerce"
+    ],
+    [
+      "Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks",
+      "Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks",
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage"
+    ],
+    [
+      "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+      "Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection",
+      "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "Multi-Modal Graph Interaction for Multi-Graph Convolution Network in Urban Spatiotemporal Forecasting"
+    ]
+  ],
+  "titlesB": [
+    [
+      "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
+      "Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU",
+      "Sharp Capacity Thresholds in Linear Associative Memory: From Top-1 Retrieval to Tail-Average Learning",
+      "MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents"
+    ],
+    [
+      "Reinforced Planning with Latent World Models",
+      "Diffusion Models for Smarter UAVs: Decision-Making and Modeling",
+      "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
+      "Tensor Field Models"
+    ],
+    [
+      "Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study",
+      "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+      "Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives",
+      "A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction"
+    ],
+    [
+      "Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis",
+      "WHAT IS MISSING FROM AI POST-TRAINING AI: AN EMPIRICAL ANALYSIS",
+      "Empirical Characterization of Learning Geometry in Hybrid Quantum Forecasting Models",
+      "Global Crises and National Policies: A Large Scale Analysis of Political Content in German Language Online Media"
+    ],
+    [
+      "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+      "The Good, the Bad, and the Ugly of Markov Boundary for Tabular Prediction",
+      "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
+      "MoRAX: Mobility-based Representation Augmentation for Geospatial Foundation Models"
+    ],
+    [
+      "WHY GPT-STYLE MODELS DO NOT DIRECTLY TRANSFER TO SYMBOLIC MUSIC: COMPRESSION IN THE WRONG COORDINATE SYSTEM",
+      "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+      "Vector Symbolic Policy Gradient",
+      "WorldPack: Dynamic Frame Compression for Long-context Video World Modeling"
+    ],
+    [
+      "Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting",
+      "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition",
+      "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding"
+    ],
+    [
+      "Sphere Retraction Normalizations",
+      "Towards Formalizing Reinforcement Learning Theory: A Robbins-Siegmund Approach",
+      "BRo-JEPA: Learning Modular Transformations in Latent Space",
+      "Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition"
+    ],
+    [
+      "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+      "A systematic review of machine learning techniques to address diagnosis and treatment of autism: challenges and opportunities",
+      "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+      "OraclePhys: A Systematic Framework for LLM Fine-Tuning on Structural Mechanics"
+    ],
+    [
+      "What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems",
+      "Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives",
+      "FROM OBJECTIVES TO WHAT MODELS LEARN: A LANDAU THEORY OF INVARIANT LEARNING",
+      "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning"
+    ],
+    [
+      "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Claude Sonnet 4",
+      "Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives",
+      "TRAINING nGPT",
+      "Debate Training Reduces Reward Hacking in RLAIF"
+    ],
+    [
+      "Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning",
+      "Protoreasoning in Tiny Transformers",
+      "Geometric and Behavioral Stratification in Transformer Residual Streams",
+      "Continual Reasoning Gym: Diagnosing and Harnessing Shared Reasoning in Continual RLVR"
+    ],
+    [
+      "Geometric Iterative Retrieval for Neural Audio Codec Resynthesis",
+      "Diff-DDoS: Realistic Cyber-Physical Attack Synthesis and Robust Detection for 5G-Enabled CPS Using Tabular Diffusion Models",
+      "Likelihood Hacking in Probabilistic Program Synthesis",
+      "Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks"
+    ],
+    [
+      "A Locally Tokenized Generative Model for Robust Time-Series Watermarking",
+      "GENERATIVE LEARNING OF SEPARATRICES",
+      "What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems",
+      "Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling"
+    ],
+    [
+      "Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection",
+      "End-to-end Early Classification of Time Series in Non-Stationary Environments",
+      "KOOPMAN EARLY WARNING SIGNALS FOR BIFURCATION AND RATE-INDUCED TIPPING",
+      "Prototype-based Self-Supervised Multimodal Learning for PPG and Accelerometry Signals"
+    ],
+    [
+      "DYNAMIC COMPRESSION IN RECURRENT NETWORKS",
+      "Online Learning for Dynamic Constellation Topologies",
+      "WorldPack: Dynamic Frame Compression for Long-context Video World Modeling",
+      "Allocating Recurrent Compute in Looped Language Models"
+    ],
+    [
+      "Asynchronous Message Passing for Addressing Oversquashing in Graph Neural Networks",
+      "Uncovering the Limits of Proof Sharing for Neural Networks",
+      "Concentrated Liquidity Provision: a Reinforcement Learning Perspective",
+      "The Neural Echo: A Signal Processing Perspective for Understanding Neural Networks"
+    ],
+    [
+      "Structured Latent Space Modeling over Multi-Scale Temporal Patches for Multivariate Time Series Forecasting",
+      "Forecast Collapse in Time-Series Foundation Models",
+      "DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting",
+      "ReAugment: Model Zoo-Guided RL for Few-Shot Time Series Augmentation and Forecasting"
+    ],
+    [
+      "Geometric and Behavioral Stratification in Transformer Residual Streams",
+      "Geometry-Guided Layerwise FFN Width Allocation in Transformers",
+      "Elimination Geometry",
+      "Allocating Recurrent Compute in Looped Language Models"
+    ],
+    [
+      "From Inference to Adaptation: A Unified Optimal Transport View of Vision Language Model",
+      "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models",
+      "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws",
+      "Learning Deterministic and Stochastic Forced Hamiltonian Systems"
+    ],
+    [
+      "Unregularized Convergence of Single-Loop, Entropy-Regularized Natural Actor-Critic",
+      "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+      "Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2HPO)",
+      "H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification"
+    ],
+    [
+      "THE LOSS DOES NOT SEE THE BASIS, BUT ADAM DOES",
+      "Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning",
+      "Many Optimizers But Only One Training Path: Repeated Resampling for Adaptive Optimizer Selection",
+      "When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift"
+    ],
+    [
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "Uncovering the Limits of Proof Sharing for Neural Networks",
+      "Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs",
+      "Deep neural networks as lattice gauge theories"
+    ],
+    [
+      "WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T",
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "Transformer See, Transformer Do: Copying as an Intermediate Step in Learning Analogical Reasoning"
+    ],
+    [
+      "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+      "Modular Cognitive Architecture Emerges in Large Language Models",
+      "Improved Confidence Estimates for Black-Box Large Language Models",
+      "MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models"
+    ],
+    [
+      "Learn for Variation: Efficient AAV Trajectory Learning through a Differentiable Wireless World Model",
+      "Addressable Memory for Video World Models",
+      "WorldPack: Dynamic Frame Compression for Long-context Video World Modeling",
+      "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models"
+    ],
+    [
+      "OceanDepths: A Global Dataset of Paired Subsurface and Surface Ocean Observations",
+      "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+      "FORGETTING, PLASTICITY, AND CO-OBSERVATION: A THIRD FACET OF CONTINUAL LEARNING",
+      "Quantum Gaussian processes for prediction of channel observations"
+    ],
+    [
+      "MIFR: A Modality-Invariant and Fair Representation Framework for Skin Disease Classification",
+      "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "Geometric and Behavioral Stratification in Transformer Residual Streams",
+      "（收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure"
+    ],
+    [
+      "Vector Symbolic Policy Gradient",
+      "Uncovering the Limits of Proof Sharing for Neural Networks",
+      "Bidirectional representational alignment between biological and artificial neural networks",
+      "Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks"
+    ],
+    [
+      "Inference and Uncertainty Quantification for Streaming $r$-PCA",
+      "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+      "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions"
+    ]
+  ]
+}

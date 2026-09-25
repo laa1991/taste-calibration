@@ -1,0 +1,190 @@
+Below are 30 independent questions. Each shows four arXiv paper titles. Exactly ONE of the four is a paper that a particular machine-learning researcher personally chose to keep in a private collection of papers they found interesting. The other three are random recent cs.LG papers that they did NOT keep.
+
+For each question, say which letter you think is the kept one. Answer with your gut — no need to justify.
+
+Output format (exactly this, 30 lines, nothing else):
+Q1: B
+Q2: D
+...
+
+Questions:
+
+Q1.
+  (A) Debiased Inference for AI-Generated Data without Gold-Standard Labels: Identification via Multiple Imperfect Measurements
+  (B) AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+  (C) Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies
+  (D) The Label Horizon Paradox: Rethinking Supervision Targets in Financial Forecasting
+
+Q2.
+  (A) THE ROAD TAKEN: THE ROLE OF OPTIMIZERS AT THE EDGE OF STABILITY
+  (B) Learning Topological Features of $\widehat Z$-invariants
+  (C) Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval
+  (D) A Configuration-First Framework for Reproducible, Low-Code Machine Learning: a Localization Use Case
+
+Q3.
+  (A) SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE
+  (B) Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+  (C) A Configuration-First Framework for Reproducible, Low-Code Machine Learning: a Localization Use Case
+  (D) MARCUS: Missing-Aware Region Representation with Contextual Urban Signals for Rent Prediction
+
+Q4.
+  (A) CLaST: Context-aware Contrastive VAE for Probabilistic Time Series Forecasting
+  (B) Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles
+  (C) Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks
+  (D) WIRING BEATS BLENDING: WHAT TRANSFERS BETWEEN TRANSFORMER SIZES — AND WHAT DOESN’T
+
+Q5.
+  (A) A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+  (B) Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance
+  (C) A Residual Learning Approach for Unsteady Aerodynamic Load Prediction
+  (D) Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility
+
+Q6.
+  (A) What Can Artificial Intelligence Learn from Medicine? Generative Analogies and Reliable Machine Learning Systems
+  (B) Rényi Sharpness: A Novel Sharpness that Strongly Correlates with Generalization
+  (C) SoftModel: A Neural Model That Grows Its Own Topology
+  (D) Row-Stochastic Matrices Can Provably Outperform Doubly Stochastic Matrices in Decentralized Learning
+
+Q7.
+  (A) Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition
+  (B) When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift
+  (C) DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories
+  (D) DYNAMIC COMPRESSION IN RECURRENT NETWORKS
+
+Q8.
+  (A) Global Crises and National Policies: A Large Scale Analysis of Political Content in German Language Online Media
+  (B) Change Point--Aware Evaluation and Re-Calibration of PPG-Based Blood Pressure Estimation
+  (C) Communication Reduction via Semantic-Based Encoding in DMPC Using LSTMs
+  (D) LEARNING RESHAPES POWER-LAW ANISOTROPY IN INTERNAL REPRESENTATIONS
+
+Q9.
+  (A) Multi-stage neural operator learning with application for convolutions
+  (B) Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs
+  (C) Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket
+  (D) TabularQGAN: A quantum generative model for tabular data synthesis
+
+Q10.
+  (A) DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
+  (B) Learning Random Geometric Graphs Drawn in Probabilistic Metric Spaces
+  (C) The spectral neuron
+  (D) Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classification
+
+Q11.
+  (A) The impact of feature engineering and an optimisation framework for ocean colour machine learning
+  (B) Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+  (C) Coupled-cluster molecular properties across the main group that extrapolate beyond training size
+  (D) Unifying Graph Neural Networks Through a Common Layer Equation
+
+Q12.
+  (A) Enhancing Distance-Based Graph Autoencoders with Structural Penalties for Dynamic Graph Embedding
+  (B) Evaluating RL Explainability Methods by How Much They Help Fix Bugs in Agents
+  (C) Row-Stochastic Matrices Can Provably Outperform Doubly Stochastic Matrices in Decentralized Learning
+  (D) TRAINING nGPT
+
+Q13.
+  (A) When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift
+  (B) Visual-Aware Representation of Web Pages for Machine Learning Applications
+  (C) Reinforced Planning with Latent World Models
+  (D) Addressable Memory for Video World Models
+
+Q14.
+  (A) （收集相关的paper，用于定义一种关于模型的语言） Why Post-Norm Transformers Collapse: Attention Amplification and Gradient Repair Failure
+  (B) Enhancing Distance-Based Graph Autoencoders with Structural Penalties for Dynamic Graph Embedding
+  (C) From Rebound to Remedy: Understanding and Mitigating Reward Hacking via Representation Engineering
+  (D) The Impact of CutMix on Reliability and Robustness in Semantic Segmentation
+
+Q15.
+  (A) SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval
+  (B) Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So
+  (C) Constitutional Midtraining: Content Presence Drives Alignment Gains
+  (D) Improved Confidence Estimates for Black-Box Large Language Models
+
+Q16.
+  (A) Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay
+  (B) Measuring Structured Predictability in Neural Training Dynamics: A Cross-Regime Study
+  (C) Regularised Iterative Generalised Least Squares with Optimal Selection of the Hyper-Parameter for Identifying Nonlinear Phenomenological Models
+  (D) Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design
+
+Q17.
+  (A) Towards Zero-Shot Task Transfer with Neurosymbolic World Models
+  (B) The Null Token Knows: Reducing Message-Free Hallucination in ASR and NMT
+  (C) Online Learning for Dynamic Constellation Topologies
+  (D) When AI Designs AI: Innovation or Imitation?
+
+Q18.
+  (A) Fast Best-in-Class Regret for Contextual Bandits
+  (B) HeteRo-Select: Informativeness as the Participation Driver in Heterogeneous Federated Learning
+  (C) Mathematical Principles and Experimental Discoveries of the Emergence of Symbolic Patterns in Artificial Neural Networks
+  (D) FinVerse: Financial Time-Series Benchmark
+
+Q19.
+  (A) Preference Reasoning under Indeterminacy in Large Language Models
+  (B) Escaping Local Minima Provably in Non-convex Matrix Sensing: A Deterministic Framework via Simulated Lifting
+  (C) Feed-Forward Steering in Transformer Residual Dynamics
+  (D) When Is Shallow Enough? Adaptive Split Federated Learning with Client-Specific Sufficiency Estimation
+
+Q20.
+  (A) Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation
+  (B) SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval
+  (C) Robustness Emerges Early in Training Dynamics, but Is Not Preserved
+  (D) Learning piecewise-smooth dynamical systems
+
+Q21.
+  (A) Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval
+  (B) Multi-Objective Optimization Under Uncertainty of Part Quality in Fused Filament Fabrication
+  (C) MedStruct-S: A Benchmark for Key Discovery, Key-Conditioned QA and Semi-Structured Extraction from OCR Clinical Reports
+  (D) Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See
+
+Q22.
+  (A) LionMuon: Alternating Spectral and Sign Descent for Efficient Training
+  (B) RigidBench: Evaluating Rigid-Body Physics in Video Generation Models
+  (C) Enhancing Distance-Based Graph Autoencoders with Structural Penalties for Dynamic Graph Embedding
+  (D) Allocating Recurrent Compute in Looped Language Models
+
+Q23.
+  (A) Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning
+  (B) Forecast Collapse in Time-Series Foundation Models
+  (C) Sharper Regret Bounds for Time-Varying Gaussian Process Bandits with Constant Exploration
+  (D) Classifying Directional Trajectories Near Criticality in the Three-State Majority-Vote Model with Deep Belief Networks and Bidirectional GRUs
+
+Q24.
+  (A) Understanding the Surprising Generalization Properties of Tabular Foundation Models
+  (B) Pre-Training for Simulation-Based Science: A Study on Jet Foundation Model Training Objectives
+  (C) Learning Random Geometric Graphs Drawn in Probabilistic Metric Spaces
+  (D) Picard Proximal Monte Carlo for Parallel Bayesian Imaging with Score-Based Generative Priors
+
+Q25.
+  (A) Rethinking Weight-Averaged Model-merging
+  (B) Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive
+  (C) From Rebound to Remedy: Understanding and Mitigating Reward Hacking via Representation Engineering
+  (D) The Null Token Knows: Reducing Message-Free Hallucination in ASR and NMT
+
+Q26.
+  (A) DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
+  (B) Learning-Based Speed Estimation from Accelerometer-Only Inertial Sensing
+  (C) Provably Efficient Self-Calibrating Quantum Fault Tolerance
+  (D) GENERATIVE LEARNING OF SEPARATRICES
+
+Q27.
+  (A) A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+  (B) A single design choice determines whether machine learning models of materials make physically impossible predictions
+  (C) Bound-Aware Per-Organ Recall Risk Control for Multi-Organ CT Segmentation under Clinical Domain Shift
+  (D) Is SwiGLU’s Open Positive Tail Necessary? Evidence from Closed-Tail Gating with MemGLU
+
+Q28.
+  (A) A Comparative Study of Feature Selection Methods for EHR Diagnosis Codes in Opioid Use Disorder Prediction
+  (B) Geometry-Guided Layerwise FFN Width Allocation in Transformers
+  (C) Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design
+  (D) An Empirical Study of Reward Specification and Benchmark Reliability in GRPO-based LLM Unlearning
+
+Q29.
+  (A) End-to-end Early Classification of Time Series in Non-Stationary Environments
+  (B) SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning
+  (C) Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress
+  (D) Backward through Time, Algebraically
+
+Q30.
+  (A) When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift
+  (B) Tensor Field Models
+  (C) Where Does the Union Bound Go? Best-Arm Identification and Strong FWER Control
+  (D) Visual-Aware Representation of Web Pages for Machine Learning Applications

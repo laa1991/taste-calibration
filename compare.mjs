@@ -21,8 +21,13 @@ const POS = papers.filter((p) => p.source === 'arxiv' && p.title).map((p) => p.t
 const NEG = dist.map((d) => d.title);
 
 const SETS = [
-  { dir: 'regen1', tag: 'set1', ansA: 'ans-A.txt', ansB: 'ans-B.txt', ansC: 'ans-C.txt' },
-  { dir: 'regen777', tag: 'set2', ansA: 'ans-A2.txt', ansB: 'ans-B2.txt', ansC: null },
+  { dir: 'regen1', tag: 'set1', ansA: 'ans-A.txt', ansB: 'ans-B.txt' },
+  { dir: 'regen777', tag: 'set2', ansA: 'ans-A2.txt', ansB: 'ans-B2.txt' },
+  // sets 3 and 4 exist to give the OFFLINE players more than one sample (ticket item 5).
+  // No LLM answer sheets for them: the LLM row reports its own n — it is not padded, and it is
+  // not counted wrong on questions it never saw.
+  { dir: 'regen111', tag: 'set3', ansA: null, ansB: null },
+  { dir: 'regen222', tag: 'set4', ansA: null, ansB: null },
 ];
 
 const parseSheet = (f) => {
@@ -40,11 +45,11 @@ const questions = { A: [], B: [] };
 for (const s of SETS) {
   const key = JSON.parse(fs.readFileSync(path.join(HERE, s.dir, 'key.json'), 'utf8'));
   for (const [lvl, tkey, kkey, sheet] of [['A', 'titlesA', 'levelA', s.ansA], ['B', 'titlesB', 'levelB', s.ansB]]) {
-    const ans = parseSheet(sheet);
+    const ans = sheet ? parseSheet(sheet) : null;
     key[tkey].forEach((opts, i) => {
       const correct = 'ABCD'.indexOf(key[kkey][i]);
       opts.forEach((t) => shown.add(t));
-      questions[lvl].push({ tag: s.tag, opts, correct, llm: 'ABCD'.indexOf(ans[i]) });
+      questions[lvl].push({ tag: s.tag, opts, correct, llm: ans && ans[i] ? 'ABCD'.indexOf(ans[i]) : -1 });
     });
   }
 }
@@ -108,7 +113,8 @@ console.log('player        ' + levels.map(([, n]) => n.padEnd(24)).join(''));
 const summary = {};
 for (const p of names) {
   const cells = levels.map(([lvl]) => {
-    const qs = questions[lvl];
+    // a player is only scored on questions it actually answered (the LLM has sheets for 2 of the 4 sets)
+    const qs = questions[lvl].filter((q) => PLAYERS[p](q) >= 0);
     const hit = qs.filter((q) => PLAYERS[p](q) === q.correct).length;
     const [lo, hi] = wilson(hit, qs.length);
     summary[`${p}|${lvl}`] = { hit, n: qs.length };
@@ -117,16 +123,21 @@ for (const p of names) {
   console.log(p.padEnd(14) + cells.join(''));
 }
 
-// per-set breakdown for the two headline players (does the same condition replicate?)
-console.log('\n=== per question-set (the replication check) ===');
-for (const p of ['LLM blind', 'LR', 'shortest']) {
-  for (const lvl of ['A', 'B']) {
+// per-set breakdown = the replication check, now over every set (ticket item 5)
+const median = (a) => { const s = [...a].sort((x, y) => x - y); return s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2; };
+console.log('\n=== per question-set, and the spread across sets (this is the honest error bar) ===');
+for (const p of names) {
+  for (const [lvl, label] of levels) {
+    const rates = [];
     const parts = SETS.map((s) => {
-      const qs = questions[lvl].filter((q) => q.tag === s.tag);
+      const qs = questions[lvl].filter((q) => q.tag === s.tag).filter((q) => PLAYERS[p](q) >= 0);
+      if (!qs.length) return `${s.tag} —`;
       const hit = qs.filter((q) => PLAYERS[p](q) === q.correct).length;
+      rates.push(hit / qs.length);
       return `${s.tag} ${hit}/${qs.length}`;
     });
-    console.log(`${p.padEnd(11)} ${lvl === 'A' ? 'L0' : 'L2'}  ${parts.join('   ')}`);
+    const med = median(rates);
+    console.log(`${p.padEnd(11)} ${label.split(' ')[0]}  ${parts.join('  ')}   median ${pc(med)} [${pc(Math.min(...rates))}–${pc(Math.max(...rates))}]  (${rates.length} sample${rates.length > 1 ? 's' : ''})`);
   }
 }
 

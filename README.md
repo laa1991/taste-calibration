@@ -12,7 +12,7 @@ The contribution is a **ruler, not a verdict**: three difficulty levels, four no
 
 ## The result in one paragraph
 
-Picking the paper a researcher actually kept, out of four titles, is a **much easier task than it looks — and how easy depends almost entirely on how the three wrong options were chosen, not on how good the predictor is.** With three **random** cs.LG distractors, a model that knows nothing about the researcher scores **68.3%** (chance 25%) and a one-line rule — *pick the shortest title* — scores 38.3%. Replace the distractors with the three **nearest titles** and everything converges: supervised model 51.7%, the same zero-information model 55.0%, the one-line rule 50.0% — **three confidence intervals that contain each other.** So if a benchmark draws its negative examples at random, it is mostly measuring *can the model tell a curated paper from an arbitrary one*, not *did it learn this person's taste*.
+Picking the paper a researcher actually kept, out of four titles, is a **much easier task than it looks — and how easy depends almost entirely on how the three wrong options were chosen, not on how good the predictor is.** With three **random** cs.LG distractors, a model that knows nothing about the researcher scores **68.3%** (chance 25%) and a one-line rule — *pick the shortest title* — scores 45.0%. Replace the distractors with the three **nearest titles** and the supervised model *falls* (55.0% → 44.2%) while the one-line rule *rises* (45.0% → 53.3%): at the hard level, **a title-only logistic regression does not beat "pick the shortest title"**, and the zero-information LLM sits at 55.0%. **At these n none of them is distinguishable from another — which is not the same as equal**: their intervals overlap, and this sample could not have resolved a 10-point gap even if one existed (that takes ≈ 390 questions per cell; `power.mjs`). So if a benchmark draws its negative examples at random, it is mostly measuring *can the model tell a curated paper from an arbitrary one*, not *did it learn this person's taste* — and if it reports two learners ten points apart at n = 60, it is reporting noise.
 
 ---
 
@@ -47,6 +47,9 @@ node paired.mjs           # R4: the example dose-response (uses the shipped answ
 node audit.mjs            # self-audit of the distractor construction
 node lengths.mjs          # R2: the title-length gap and its mechanical prediction
 node score.mjs ans-A.txt:levelA ans-B.txt:levelB   # score an answer sheet
+node popularity.mjs       # R5: the sixth player — the week's hottest 15 (offline; uses the shipped feed snapshot)
+node power.mjs            # how many questions each comparison would actually need
+node make-human-quiz.mjs  # build the human quiz (--core for the 60-question version)
 ```
 
 `runs.txt` is the verbatim console record of one full pass. All scripts are deterministic given their seeds; no file is written except the `*-results-*.json` summaries.
@@ -84,21 +87,36 @@ node score.mjs ans-A.txt:levelA ans-B.txt:levelB   # score an answer sheet
 
 ## Readings
 
-### R1 · Same 120 questions, five players (chance = 25%)
+### R1 · Same questions for everybody (chance = 25%)
 
 | player | L0 (game-like) | L2 (topically matched) |
 |---|---|---|
-| `random` | 19/60 = **31.7%** [21–44] | 15/60 = **25.0%** [16–37] |
-| `shortest` | 23/60 = **38.3%** [27–51] | 30/60 = **50.0%** [38–62] |
-| `kNN5` | 25/60 = **41.7%** [30–54] | 16/60 = **26.7%** [17–39] |
-| `LR` | 38/60 = **63.3%** [51–74] | 31/60 = **51.7%** [39–64] |
+| `random` | 28/120 = **23.3%** [17–32] | 34/120 = **28.3%** [21–37] |
+| `shortest` | 54/120 = **45.0%** [36–54] | 64/120 = **53.3%** [44–62] |
+| `kNN5` | 47/120 = **39.2%** [31–48] | 32/120 = **26.7%** [20–35] |
+| `LR` | 66/120 = **55.0%** [46–64] | 53/120 = **44.2%** [36–53] |
 | `LLM blind` | 41/60 = **68.3%** [56–79] | 33/60 = **55.0%** [42–67] |
 
-Wilson 95% intervals. Three readings:
+Wilson 95% intervals. Each row reports its own n: the offline players ran on **four** question sets (120 questions per level); the LLM ran on **two** (60 per level — its answer sheets are in `answers/`).
 
-1. **At L2 the intervals [38–62] / [39–64] / [42–67] contain each other.** A one-line rule, a supervised model and a zero-information LLM are **not distinguishable** at that difficulty.
-2. **`kNN5` collapses to chance at L2** (26.7% vs 25%): "it looks like something in his collection" stops being informative the moment the distractors are topically matched too.
-3. `random` lands at 31.7% / 25.0% — the harness itself is not biased.
+Spread across question sets — the honest error bar:
+
+| player | L0, per set → median [min–max] | L2, per set → median [min–max] |
+|---|---|---|
+| `random` | 5·7·10·5 /30 → 20.0% [16.7–33.3] | 9·8·4·7 /30 → 25.0% [13.3–30.0] |
+| `shortest` | 11·12·17·14 /30 → 43.3% [36.7–56.7] | 14·16·16·18 /30 → 53.3% [46.7–60.0] |
+| `kNN5` | 13·11·11·12 /30 → 38.3% [36.7–43.3] | 10·6·8·8 /30 → 26.7% [20.0–33.3] |
+| `LR` | 20·14·18·14 /30 → 53.3% [46.7–66.7] | 13·10·16·14 /30 → 45.0% [33.3–53.3] |
+| `LLM blind` | 24·17 /30 → 68.3% [56.7–80.0] | 18·15 /30 → 55.0% [50.0–60.0] |
+
+Four readings:
+
+1. **At L2 the intervals [38–62] / [39–64] / [42–67] contain each other.** At this n the one-line rule, the supervised model and the zero-information LLM are **not distinguishable** — *absence of evidence, not evidence of equality*. `node power.mjs`: a **10-point gap between two learners needs ≈ 390 questions per cell** (this run has 60), while a single learner vs chance (25%) is already resolved at **≈ 26**, and one interval at n=60 is about **±12 points wide**. The shipped n settles *"did anything get learned"*; it does not settle *"which learner is better"*.
+2. **The one-line rule is not the weak baseline — at L2 it is the strongest of the offline players.** `shortest` 53.3% vs `LR` 44.2%, and it is the only player whose score *rises* from L0 to L2 (45.0% → 53.3%). A title-only supervised model that cannot beat "pick the shortest title" has not learned taste — and at this difficulty it does not.
+3. **`kNN5` collapses to chance at L2** (26.7% vs 28.3% for `random`): "it looks like something in his collection" stops being informative the moment the distractors are topically matched too.
+4. **`random` brackets 25%** (23.3% / 28.3%) — the harness itself is not biased.
+
+⚠️ One confound to keep in view: the two extra question sets enlarged the "already shown" exclusion set, so `LR` trains on **157** negatives here versus **273** in the two-set run. Part of its movement between those runs is training-pool size, not sampling. The players that need no training (`random`, `shortest`) are the clean comparisons, and they show the same pattern.
 
 ### R2 · What one line is worth: title length
 
@@ -143,8 +161,11 @@ Ground truth = the 37 papers he kept in the week the post evaluates. Candidate p
 | the 15 shortest titles | 4/15 | 26.7% | 10.8% |
 | the 15 longest titles (**negative control**) | 0/15 | 0% | 0% |
 | random 15 (×400) | 1.37/15 | 9.1% | 3.7% |
+| **the week's hottest 15** (public heat feed — see below) | 0/15 | **0%** | **0%** |
 
-Two further readings:
+Three further readings:
+
+- **The "it just learned what's hot" explanation does not survive a heat feed** (`node popularity.mjs`). Ranking the week's papers by a public upvote signal and taking the top 15 yields **0 of the 37**; and only **4 of the 37 appear anywhere in that feed at all** (155 papers over 16–22 Aug). Overlap with the reported agent's 15: **0/15**. Read it as *dirty but decisive in one direction*: the feed is not restricted to cs.LG and does not carry every ML paper, so it is not a measurement of the week's most-discussed 15 — but it does show that the hot population and the population he keeps are almost disjoint.
 
 - **The agent's 15 land at ranks 88 / 17 / 7 / — / 150 / 51 / 169 / — / 1 / 72 / 177 / — / — / 77 / —** inside the LR's ordering of the same 380 (median 77). The two selectors are picking largely *different* things — only 2 of the 15 also make the LR's top 15.
 - **Five of the agent's 15 hits are papers he had already collected himself.** The single case where it produced information he did not already have is `2608.18592`, which he annotated *"I really like this paper, but missed it when browsing arXiv."* On a **net-new** accounting — what the agent found that he missed ÷ what it submitted — this run scores **1/15 ≈ 7%**, and that is arguably the metric that matches the stated purpose.
@@ -153,8 +174,8 @@ Two further readings:
 
 ## What this does **not** show
 
-- **No human baseline.** How well a person scores on the game is unknown, and is the most obvious missing number.
-- **No popularity baseline.** A model that only predicts "what's hot this week" would look a lot like a model that learned taste. Without a "15 most-discussed papers of that week" control, that explanation is not excluded. *(The fact that all 5 hits were papers he found himself is the shape of this worry.)*
+- **No human baseline.** How well a person scores is the most obvious missing number, and no agent can produce it — it needs people. The instrument is shipped: open `human-baseline.html` (120 questions, ~16 min) or `human-baseline-core.html` (set 1 only, 60 questions, ~8 min), answer with no feedback until the end, and paste back the score line it prints. A single person is a data point; three to five make the row real. Nothing here substitutes for that.
+- **Popularity baseline: shipped, but dirty** (R5). It answers "is the model just picking what's hot?" with a public heat feed that is not restricted to cs.LG and does not carry every ML paper. Its verdict (0/15, and 33 of his 37 papers absent from the feed) bounds the hotness explanation; it is not a clean "15 most-discussed papers of that week".
 - **L2's "same topic" is a proxy** — the 3 nearest titles under character-n-gram cosine, not a human judgment of topical match.
 - **The negatives are random cs.LG, not papers he saw and rejected.** The true hard-pair experiment needs his browsing history, which does not exist. This is the ceiling of what a public collection can support.
 - **The distractor pool is not the week's full cs.LG stream.** It has zero overlap with the collection (either filtered at fetch time or genuinely disjoint — I have no evidence to separate the two), so its positive rate is unknown.
@@ -180,12 +201,29 @@ A self-audit worth repeating here: the L2 distractor selection *could* have infl
 Your data is the whole reason any of this is measurable, and the post's invitation to use it for benchmarking is what made me treat it as a benchmark — including the unflattering parts.
 
 - The replay in R5 is **not** a fair comparison to your agent, and the README says so in bold. Different candidate pool, different base rate; it is an upper bound on a title-only selector, not a verdict on an agent that saw the real stream.
-- The two most useful things I could not do — a **human baseline** on your quiz and a **popularity baseline** for the week — need something only you have. If a "15 most-discussed papers of that week" list exists anywhere, it would settle the question this repo cannot.
+- One thing I still could not do: a **human baseline** on your quiz. That needs people, not compute, so what is here is the instrument — `human-baseline.html` presents the same 120 questions your agent's players answered, with no feedback until the end, and prints one score line. If you or anyone else plays it, the row gets filled in.
+- The **popularity baseline** I could do without you (R5) — a public upvote feed. You may have a better heat signal than a stranger does; if a "15 most-discussed papers of that week" list exists anywhere, it would upgrade that row from *dirty* to clean.
 - If you would rather I not keep a mirror of the two JSON files here, say so and I will replace them with the fetch script alone in one commit.
 
 ---
 
-## Provenance, attribution, license
+## Revisions
+
+- **v0.2 — 2026-09-25, same day.** Five changes from an external review (`refs/给dsh-taste-calibration-最小补做-20260925.md`), each with the reading it moved:
+  1. **Popularity baseline shipped** (R5): the week's hottest 15 scores **0/15**, and 33 of his 37 kept papers never appear in the heat feed at all. "It just learned what's hot" is now bounded by a measurement instead of a worry.
+  2. **Overlap re-read as overlap** (§the one paragraph, R1): `everything converges` → *at this n, indistinguishable*, with `power.mjs` supplying the number — ≈390 questions per cell for a 10-point gap, ≈26 for a player against chance.
+  3. **The human-baseline instrument is shipped** (`human-baseline.html`, 120 questions; `human-baseline-core.html`, 60). No feedback until the end, one paste-back score line. The row is still **empty** — it needs people, and says so rather than being papered over.
+  4. **R1 now carries a real error bar**: every offline player runs on four question sets, reported as median [min–max] per level. This *changed a conclusion* — the supervised model loses to the one-line rule at L2 once there are four samples instead of two.
+  5. `power.mjs`, `popularity.mjs`, `make-human-quiz.mjs` added to the reproduce list; the `compare.mjs` runner now takes any number of question sets.
+- **v0.1 — 2026-09-25.** First public version.
+
+## Open items (declared, not hidden)
+
+- **No semantic-neighbour difficulty level.** L2 picks its distractors by character-n-gram TF-IDF — i.e. by *word shape* — so the hard level is lexically hard, not semantically hard. Doing it properly needs sentence embeddings and there is no embedding route on this box (no API key, no local model), so it is **not done**. Hook: each level is built in one function (`buildQuestion` in `ladder.mjs`), so an `--embed` provider drops in without touching the rest.
+- **The LLM rows have two samples, not four.** Answer sheets for sets 3 and 4 were never collected (each LLM condition is a separate run, and item 4 above already showed what one sample is worth). Its rows report n=60 for that reason.
+- **Thinking on/off was not varied.** The whole LLM baseline ran with its reasoning budget disabled. For a repository whose question is literally *what can an agent learn*, that is an obvious variable and it is **not measured**.
+
+---
 
 - **Scripts and text:** MIT (see `LICENSE`).
 - **`papers.json` / `distractors.json`:** not mine. They are a mirror of the author's public dataset, kept so the published numbers stay reproducible after the live collection changes; see `MANIFEST.json` for the source URLs, sizes and hashes, and `node fetch-data.mjs` to check whether the live data still matches the snapshot. All rights remain with the original author.

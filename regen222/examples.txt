@@ -1,0 +1,23 @@
+Papers the researcher KEPT:
+  - Small-Scale Experiments: Are We There Yet?
+  - Correlation flow governs learning at criticality
+  - The concentration game: Bayesian updating, regret, and information
+  - Clustered Attractor Manifolds and Dynamical Condensation in Self-Attention
+  - In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models
+  - RigidBench: Evaluating Rigid-Body Physics in Video Generation Models
+  - Designing Compact Neural Architectures via Neuron Gating and Mixed Activation
+  - On the Principles Behind Neural Network Optimizers
+  - The spectral neuron
+  - AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+
+Papers the researcher was shown and did NOT keep:
+  - Infrared Universality of Collective Dynamics across Transformer and State-Space Architectures
+  - $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
+  - Learning Canonical Register Automata over Ordered Data Domains
+  - Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models
+  - Feature Priming in Online Linear Regression: Sparse-Regret Lower Bounds and a Tight Univariate Rate
+  - How (Not) to Hybridize Neural and Mechanistic Models for Epidemiological Forecasting
+  - An Irreducible Quantum Advantage in Aligning World Models with Reality
+  - Learning Topological Features of $\widehat Z$-invariants
+  - Fuzzy Accuracy Compensates for Label Subjectivity in Classification of Skin Tone Using Wearable Photoplethysmography Signals
+  - When to Retrain: An Empirical Study of Retraining Policies for Streaming ML Under Concept Drift, Budget, and Latency Constraints
