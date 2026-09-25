@@ -1,0 +1,22 @@
+NOTICE
+======
+
+Third-party data
+----------------
+
+`papers.json` and `distractors.json` in this repository are NOT covered by the
+MIT license in `LICENSE`. They are a mirror of a public dataset published by a
+third party for education and benchmarking purposes.
+
+  papers.json       https://metacircleai.github.io/ziming-paper-collection/data/papers.json
+  distractors.json  https://metacircleai.github.io/ziming-paper-collection/data/distractors.json
+
+They are kept in this repository for one reason: so that the readings in
+README.md stay reproducible after the live collection is updated. The canonical
+source is the URL above; `MANIFEST.json` records the byte counts and SHA-256 of
+the mirrored snapshot, and `node fetch-data.mjs` will tell you whether the live
+data still matches it.
+
+All rights in that data remain with its original author. If you are the author
+and would prefer this mirror not to exist, open an issue and it will be replaced
+by the fetch script alone in a single commit.
